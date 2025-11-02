@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #000000;
+
+  /* CrossFit Leiden Brand Colors */
+  --cinnabar: #EF4C37;
+  --jonquil: #F7CB15;
+  --verdigris: #0CBABA;
+  --chinese-violet: #7B6D8D;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  /* Brand Colors */
+  --color-cinnabar: var(--cinnabar);
+  --color-jonquil: var(--jonquil);
+  --color-verdigris: var(--verdigris);
+  --color-chinese-violet: var(--chinese-violet);
+
+  /* Semantic Colors */
+  --color-primary: var(--cinnabar);
+  --color-secondary: var(--jonquil);
+  --color-accent-1: var(--verdigris);
+  --color-accent-2: var(--chinese-violet);
+
+  /* Typography */
+  --font-sans: ui-sans-serif, system-ui, sans-serif;
+  --font-heading: ui-sans-serif, system-ui, sans-serif;
+
+  /* Spacing */
+  --spacing-section: 4rem;
+  --spacing-section-mobile: 2.5rem;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus styles for accessibility */
+*:focus-visible {
+  outline: 2px solid var(--cinnabar);
+  outline-offset: 2px;
+}

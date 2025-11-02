@@ -1,0 +1,98 @@
+{
+  "hero": {
+    "headline": "28-Day Kickstart for Busy Schedules",
+    "subheadline": "Jumpstart your fitness in 28 days – no experience needed, no pressure. All levels welcome.",
+    "tagline": "Everyday people, exceptionally strong",
+    "cta": "Book Free Intro",
+    "microCopy": "No obligations. 15 minutes. No workout."
+  },
+  "benefits": {
+    "heading": "What You'll Get",
+    "realResults": {
+      "title": "See Real Results, Fast",
+      "description": "Feel fitter and more energetic in 28 days with our proven program. Boost your strength, energy, and confidence."
+    },
+    "coaching": {
+      "title": "Personal Coaching & Support",
+      "description": "You get guidance from friendly coaches who understand your busy life and keep you motivated and accountable."
+    },
+    "flexible": {
+      "title": "Flexible Schedule",
+      "description": "Multiple class times and a quick 45-minute format – made for parents and professionals on the go."
+    },
+    "habits": {
+      "title": "Habits that Stick",
+      "description": "Learn proper form, nutrition basics, and workout habits you can sustain beyond the 28 days."
+    },
+    "community": {
+      "title": "Community & Fun",
+      "description": "Join a welcoming, non-judgmental community. Exercise becomes enjoyable when you're supported by others like you."
+    }
+  },
+  "howItWorks": {
+    "heading": "What to Expect",
+    "step1": {
+      "title": "Friendly Intro Chat",
+      "description": "Start your fitness story with a friendly chat and an easy check-in to see where you stand. Free 15-20 minute one-on-one conversation – no workout, just us getting to know your goals."
+    },
+    "step2": {
+      "title": "28-Day Kickstart Program",
+      "description": "Four weeks of guided training (approx. 3 sessions per week) plus nutrition tips and accountability check-ins. You'll get 12 small-group training sessions, a baseline fitness assessment, and goal review."
+    },
+    "step3": {
+      "title": "Your Ongoing Journey",
+      "description": "After 28 days, you'll have momentum! Graduates of the Kickstart can seamlessly continue into our regular membership, armed with new confidence and habits."
+    }
+  },
+  "testimonials": {
+    "heading": "What Our Members Say",
+    "testimonial1": {
+      "quote": "I was nervous and out of shape, but the coaches were so welcoming. After 28 days I felt stronger and more confident – and it easily fit around my work and kids' schedule!",
+      "name": "Sarah",
+      "role": "Mother of two"
+    },
+    "testimonial2": {
+      "quote": "I have more energy for my kids now than ever before, thanks to CrossFit Leiden's program. The community makes all the difference.",
+      "name": "Mark",
+      "role": "Busy executive"
+    },
+    "testimonial3": {
+      "quote": "I was hesitant when signing up, but after my first class I felt comfortable. Workouts cater to all different levels – so don't worry!",
+      "name": "Lisa",
+      "role": "Parent of three"
+    }
+  },
+  "cta": {
+    "ready": "Ready to get started?",
+    "bookNow": "Book Your Free Intro Now",
+    "noPressure": "No payment or workout required – just a friendly chat!"
+  },
+  "faq": {
+    "heading": "Common Questions",
+    "q1": {
+      "question": "What is a No-Sweat Intro?",
+      "answer": "A free 15-minute chat – no workout, just talk. Come in work clothes if you want! We'll discuss your goals and answer any questions."
+    },
+    "q2": {
+      "question": "I'm really out of shape / over 50 / a beginner – can I do this?",
+      "answer": "Yes! We specialize in helping beginners of all ages. No judgment, just support. Every workout is scalable to your fitness level."
+    },
+    "q3": {
+      "question": "How much time will this take each week?",
+      "answer": "We recommend 3 sessions per week, each about 45 minutes. That's just over 2 hours per week – designed to fit into busy schedules."
+    },
+    "q4": {
+      "question": "What happens after the 28 days?",
+      "answer": "You can continue with our regular membership or another program. We'll help you find the best path forward based on your goals and progress."
+    }
+  },
+  "footer": {
+    "address": "CrossFit Leiden, Leiden, Netherlands",
+    "privacy": "Privacy Policy",
+    "contact": "Contact Us"
+  },
+  "nav": {
+    "switchToNL": "Nederlands",
+    "switchToEN": "English"
+  }
+}
