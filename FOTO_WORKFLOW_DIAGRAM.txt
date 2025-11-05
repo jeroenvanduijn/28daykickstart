@@ -1,0 +1,164 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    📸 FOTO'S UPLOADEN - WORKFLOW DIAGRAM                     ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  STAP 1: Foto's voorbereiden op je computer                                │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+    📱 Telefoon/Camera          💻 Computer
+         │                          │
+         ├──► Beste gym foto ───────┤
+         │                          │
+         └──► 3 Testimonial foto's ─┘
+                    │
+                    ▼
+         📝 Hernoem bestanden:
+            - hero-background.jpg
+            - sarah.jpg
+            - mark.jpg  
+            - lisa.jpg
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  STAP 2: Vind je project folder (LOKAAL op je computer)                    │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+    🖥️  Mac/Windows Bestandsbeheer
+         │
+         ▼
+    📁 /Users/jouw-naam/28daykickstart/    ← Je project folder
+         │
+         ├── app/
+         ├── components/
+         ├── public/              ← Open deze folder!
+         │    └── images/         ← Open deze folder!
+         ├── messages/
+         └── README.md
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  STAP 3: Sleep foto's naar de juiste folder                                │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+    📂 public/images/  (open in Finder/Verkenner)
+         │
+         ├─ hero-background.jpg  ← Sleep hier!
+         │
+         └─ testimonials/
+              ├─ sarah.jpg        ← Sleep hier!
+              ├─ mark.jpg         ← Sleep hier!
+              └─ lisa.jpg         ← Sleep hier!
+
+    ✅ RESULTAAT:
+    
+    public/
+    └── images/
+        ├── hero-background.jpg        ✓ Toegevoegd!
+        ├── README.md                  (was al aanwezig)
+        └── testimonials/
+            ├── sarah.jpg              ✓ Toegevoegd!
+            ├── mark.jpg               ✓ Toegevoegd!
+            └── lisa.jpg               ✓ Toegevoegd!
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  STAP 4: Test lokaal                                                        │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+    💻 Terminal/Command Prompt:
+    
+    $ cd ~/28daykickstart          # Ga naar project folder
+    $ npm run dev                  # Start development server
+    
+    ⏳ Wacht tot je ziet:
+       "Local: http://localhost:3000"
+    
+    🌐 Open browser:
+       http://localhost:3000
+    
+    ❓ Zie je de foto niet?
+       → Hard refresh: Cmd+Shift+R (Mac) of Ctrl+Shift+R (Windows)
+       → Check bestandsnaam (exact: hero-background.jpg)
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  STAP 5: "Upload" naar GitHub (= Commit & Push)                            │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+    🖥️  Je Computer (lokaal)                   ☁️  GitHub (online)
+    ┌──────────────────────┐                  ┌──────────────────────┐
+    │  public/images/      │                  │                      │
+    │  └─ hero-background  │                  │  (nog leeg)          │
+    │     .jpg             │                  │                      │
+    └──────────────────────┘                  └──────────────────────┘
+              │                                          ▲
+              │  git add public/images/                  │
+              │  git commit -m "Add photos"              │
+              │  git push                                │
+              └──────────────────────────────────────────┘
+    
+    ✅ Nu staat je foto OP GITHUB!
+    
+    GitHub heeft nu:
+    - Je code ✓
+    - Je foto's ✓
+    - Alles in sync ✓
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  STAP 6: Update de code om foto's te tonen                                 │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+    📝 Open: components/sections/Hero.tsx
+    
+    Vervang code volgens QUICK_START_MEDIA.md
+    
+    📝 Open: components/sections/Testimonials.tsx
+    
+    Vervang code volgens QUICK_START_MEDIA.md
+    
+    💾 Sla op en commit opnieuw:
+    
+    $ git add .
+    $ git commit -m "Integrate photos in components"
+    $ git push
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  🎉 KLAAR! Je foto's staan nu live!                                        │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+    ✅ Foto's staan lokaal op je computer
+    ✅ Foto's staan op GitHub
+    ✅ Code is aangepast
+    ✅ Website toont de foto's
+    
+    Volgende stap: Deploy naar Vercel voor live website!
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                          BELANGRIJKE PUNTEN                                  ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+📌 GitHub is NIET zoals Google Drive
+   Je upload niet direct naar GitHub via een website
+   Workflow: Lokaal toevoegen → Git commit → Git push → GitHub
+
+📌 Foto's horen in de `public` folder
+   Niet in `src`, niet in `components`, alleen in `public`!
+
+📌 Bestandsnamen zijn hoofdlettergevoelig
+   "Hero-Background.JPG" ≠ "hero-background.jpg"
+   Gebruik exact: hero-background.jpg (kleine letters!)
+
+📌 Eerst foto's, dan code aanpassen
+   1. Foto's lokaal toevoegen
+   2. Testen met npm run dev
+   3. Dan code aanpassen
+   4. Alles committen en pushen
+
+📌 De public folder wordt automatisch gehost
+   Alles in `public` is toegankelijk via URL
+   public/images/hero.jpg → yourdomain.com/images/hero.jpg
+
