@@ -9,6 +9,7 @@
   --jonquil: #F7CB15;
   --verdigris: #0CBABA;
   --chinese-violet: #7B6D8D;
+  --chinese-violet-dark: #5a5167; /* Darker variant for better contrast */
 }
 
 @theme inline {

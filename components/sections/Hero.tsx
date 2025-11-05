@@ -12,7 +12,7 @@ export function Hero() {
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         {/* Tagline with emphasized "BUITENGEWOON STERK" */}
         <p className="text-base sm:text-lg font-bold mb-4 uppercase tracking-wide">
-          <span className="text-[--chinese-violet]">{t('taglinePrefix')}</span>
+          <span className="text-[#5a5167]">{t('taglinePrefix')}</span>
           <span className="text-[--cinnabar] text-lg sm:text-xl">{t('taglineEmphasis')}</span>
         </p>
 
@@ -29,18 +29,21 @@ export function Hero() {
         {/* CTA Button with "Alle niveaus welkom" */}
         <div className="mb-3">
           <Button
+            variant="primary"
             size="lg"
             href="#booking"
-            className="bg-[--jonquil] text-[--foreground] hover:bg-[#deb512] font-bold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all"
+            className="shadow-lg hover:shadow-xl transform hover:scale-105"
           >
             {t('cta')}
           </Button>
         </div>
 
         {/* "Alle niveaus welkom" trust message */}
-        <p className="text-base font-semibold text-[--cinnabar] mb-2">
-          {t('allLevelsWelcome')}
-        </p>
+        <div className="inline-block bg-[--jonquil] px-6 py-2 rounded-full mb-2">
+          <p className="text-base font-bold text-[--foreground]">
+            {t('allLevelsWelcome')}
+          </p>
+        </div>
 
         {/* Micro-copy */}
         <p className="text-sm text-gray-600 italic">

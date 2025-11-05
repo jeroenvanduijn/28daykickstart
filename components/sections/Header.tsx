@@ -22,9 +22,10 @@ export function Header() {
           <div className="flex items-center gap-4">
             <LanguageSwitcher />
             <Button
+              variant="primary"
               size="md"
               href="#booking"
-              className="bg-[--jonquil] text-[--foreground] hover:bg-[#deb512] font-bold shadow-md"
+              className="shadow-md hover:shadow-lg"
             >
               {t('cta')}
             </Button>
