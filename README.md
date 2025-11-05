@@ -105,6 +105,32 @@ Update CSS variables in `app/globals.css`:
 
 Replace the placeholder form submission in `components/sections/CTA.tsx` with your actual booking system (Calendly, GymLeadMachine, etc.).
 
+### Add Photos & Videos
+
+To complete your landing page with visual content:
+
+**📸 Quick Start (15 minutes):**
+See `QUICK_START_MEDIA.md` for step-by-step instructions to add:
+- Hero background image
+- Member story video
+- Testimonial photos
+
+**📚 Full Documentation:**
+See `FOTO_VIDEO_INSTRUCTIES.md` for comprehensive guide including:
+- All locations where media is needed
+- Multiple implementation options
+- Best practices and tips
+- Troubleshooting
+
+**Folder Structure:**
+```
+public/
+├── images/
+│   ├── hero-background.jpg       # Main hero image
+│   └── testimonials/             # Member photos
+└── videos/                       # Optional local videos
+```
+
 ## Deployment
 
 This project can be deployed to:
