@@ -36,7 +36,7 @@ export function CTA() {
   };
 
   return (
-    <section id="booking" className="py-16 sm:py-20 lg:py-24 bg-gradient-to-br from-[--cinnabar] to-[#d63d2a] text-white">
+    <section id="booking" className="py-16 sm:py-20 lg:py-24 bg-gradient-to-br from-[color:var(--cinnabar)] to-[#d63d2a] text-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Heading */}
         <div className="text-center mb-12">
@@ -63,7 +63,7 @@ export function CTA() {
                 value={formData.name}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[--cinnabar] focus:border-transparent text-gray-900"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[color:var(--cinnabar)] focus:border-transparent text-gray-900"
                 placeholder="Your full name"
               />
             </div>
@@ -80,7 +80,7 @@ export function CTA() {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[--cinnabar] focus:border-transparent text-gray-900"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[color:var(--cinnabar)] focus:border-transparent text-gray-900"
                 placeholder="your@email.com"
               />
             </div>
@@ -97,7 +97,7 @@ export function CTA() {
                 value={formData.phone}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[--cinnabar] focus:border-transparent text-gray-900"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[color:var(--cinnabar)] focus:border-transparent text-gray-900"
                 placeholder="+31 6 12345678"
               />
             </div>
@@ -113,7 +113,7 @@ export function CTA() {
                 value={formData.message}
                 onChange={handleChange}
                 rows={3}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[--cinnabar] focus:border-transparent text-gray-900"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[color:var(--cinnabar)] focus:border-transparent text-gray-900"
                 placeholder="Tell us about your goals, concerns, or questions..."
               />
             </div>

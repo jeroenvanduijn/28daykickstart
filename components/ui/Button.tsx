@@ -20,8 +20,9 @@ export function Button({
   const baseStyles = 'inline-block font-bold text-center transition-all duration-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2';
 
   const variantStyles = {
-    primary: 'bg-[--cinnabar] text-white hover:bg-[#d63d2a] focus:ring-[--cinnabar]',
-    secondary: 'bg-white text-[--foreground] border-2 border-[--foreground] hover:bg-gray-50 focus:ring-[--foreground]',
+    primary: 'bg-[var(--cinnabar)] text-white hover:bg-[#d63d2a] focus:ring-[color:var(--cinnabar)]',
+    secondary:
+      'bg-white text-[var(--foreground)] border-2 border-[color:var(--foreground)] hover:bg-gray-50 focus:ring-[color:var(--foreground)]',
   };
 
   const sizeStyles = {

@@ -25,8 +25,8 @@ export function LanguageSwitcher() {
         onClick={() => switchLocale('en')}
         className={`px-3 py-1 rounded transition-colors ${
           locale === 'en'
-            ? 'bg-[--cinnabar] text-white font-bold'
-            : 'text-gray-600 hover:text-[--foreground]'
+            ? 'bg-[var(--cinnabar)] text-white font-bold'
+            : 'text-gray-600 hover:text-[var(--foreground)]'
         }`}
         disabled={isPending}
       >
@@ -37,8 +37,8 @@ export function LanguageSwitcher() {
         onClick={() => switchLocale('nl')}
         className={`px-3 py-1 rounded transition-colors ${
           locale === 'nl'
-            ? 'bg-[--cinnabar] text-white font-bold'
-            : 'text-gray-600 hover:text-[--foreground]'
+            ? 'bg-[var(--cinnabar)] text-white font-bold'
+            : 'text-gray-600 hover:text-[var(--foreground)]'
         }`}
         disabled={isPending}
       >

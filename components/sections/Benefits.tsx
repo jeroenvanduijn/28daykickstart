@@ -1,7 +1,7 @@
 import { useTranslations } from 'next-intl';
 
 const BenefitIcon = ({ children }: { children: React.ReactNode }) => (
-  <div className="w-12 h-12 rounded-lg bg-[--cinnabar] text-white flex items-center justify-center mb-4 mx-auto">
+  <div className="w-12 h-12 rounded-lg bg-[var(--cinnabar)] text-white flex items-center justify-center mb-4 mx-auto">
     {children}
   </div>
 );
@@ -55,7 +55,7 @@ export function Benefits() {
   return (
     <section className="py-16 sm:py-20 lg:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl sm:text-4xl font-bold text-center text-[--foreground] mb-12">
+        <h2 className="text-3xl sm:text-4xl font-bold text-center text-[var(--foreground)] mb-12">
           {t('heading')}
         </h2>
 
@@ -63,7 +63,7 @@ export function Benefits() {
           {benefits.map(({ key, icon }) => (
             <div key={key} className="text-center">
               <BenefitIcon>{icon}</BenefitIcon>
-              <h3 className="text-lg font-bold text-[--foreground] mb-2">
+              <h3 className="text-lg font-bold text-[var(--foreground)] mb-2">
                 {t(`${key}.title`)}
               </h3>
               <p className="text-sm text-gray-600 leading-relaxed">

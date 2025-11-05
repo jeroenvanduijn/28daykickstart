@@ -11,12 +11,12 @@ export function Hero() {
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         {/* Tagline */}
-        <p className="text-sm sm:text-base font-medium text-[--chinese-violet] mb-4 uppercase tracking-wide">
+        <p className="text-sm sm:text-base font-medium text-[var(--chinese-violet)] mb-4 uppercase tracking-wide">
           {t('tagline')}
         </p>
 
         {/* Main Headline */}
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[--foreground] mb-6 leading-tight">
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[var(--foreground)] mb-6 leading-tight">
           {t('headline')}
         </h1>
 
@@ -38,7 +38,7 @@ export function Hero() {
         </p>
 
         {/* Visual Trust Indicator */}
-        <div className="mt-12 flex items-center justify-center gap-2 text-[--jonquil]">
+        <div className="mt-12 flex items-center justify-center gap-2 text-[var(--jonquil)]">
           <span className="text-2xl">★★★★★</span>
           <span className="text-sm text-gray-600">{t('ratingLabel')}</span>
         </div>
@@ -47,7 +47,7 @@ export function Hero() {
       {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <svg
-          className="w-6 h-6 text-[--cinnabar]"
+          className="w-6 h-6 text-[var(--cinnabar)]"
           fill="none"
           strokeLinecap="round"
           strokeLinejoin="round"

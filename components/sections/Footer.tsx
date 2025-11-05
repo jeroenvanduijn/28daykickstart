@@ -7,7 +7,7 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-[--foreground] text-white py-12">
+    <footer className="bg-[var(--foreground)] text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Logo & Tagline */}
@@ -20,10 +20,10 @@ export function Footer() {
           <div>
             <h4 className="font-bold mb-3">Contact</h4>
             <p className="text-sm text-gray-400 mb-2">{t('address')}</p>
-            <a href="tel:+31612345678" className="text-sm text-[--cinnabar] hover:underline block mb-1">
+            <a href="tel:+31612345678" className="text-sm text-[var(--cinnabar)] hover:underline block mb-1">
               +31 6 1234 5678
             </a>
-            <a href="mailto:info@crossfitleiden.nl" className="text-sm text-[--cinnabar] hover:underline block">
+            <a href="mailto:info@crossfitleiden.nl" className="text-sm text-[var(--cinnabar)] hover:underline block">
               info@crossfitleiden.nl
             </a>
           </div>
