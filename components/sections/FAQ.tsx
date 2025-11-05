@@ -68,10 +68,10 @@ export function FAQ() {
 
         {/* Additional CTA after FAQ */}
         <div className="mt-16 text-center space-y-6">
-          <p className="text-gray-700 text-lg">{t('stillHaveQuestions')}</p>
+          <p className="text-gray-700 text-lg font-medium">{t('stillHaveQuestions')}</p>
           <a
             href="#booking"
-            className="inline-block px-8 py-4 bg-[--cinnabar] text-white font-bold text-lg rounded-lg hover:bg-[#d63d2a] transition-colors shadow-lg"
+            className="inline-block px-8 py-4 bg-[--cinnabar] text-white font-bold text-lg rounded-lg hover:bg-[#d63d2a] hover:shadow-xl transition-all shadow-lg transform hover:scale-105"
           >
             {t('bookFreeIntro')}
           </a>

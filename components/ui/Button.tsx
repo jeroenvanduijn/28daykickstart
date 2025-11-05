@@ -17,11 +17,11 @@ export function Button({
   href,
   className = '',
 }: ButtonProps) {
-  const baseStyles = 'inline-block font-bold text-center transition-all duration-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2';
+  const baseStyles = 'inline-block font-bold text-center transition-all duration-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 shadow-lg';
 
   const variantStyles = {
-    primary: 'bg-[--cinnabar] text-white hover:bg-[#d63d2a] focus:ring-[--cinnabar]',
-    secondary: 'bg-white text-[--foreground] border-2 border-[--foreground] hover:bg-gray-50 focus:ring-[--foreground]',
+    primary: 'bg-[--cinnabar] text-white hover:bg-[#d63d2a] hover:shadow-xl focus:ring-[--cinnabar]',
+    secondary: 'bg-white text-[--foreground] border-2 border-[--foreground] hover:bg-gray-50 hover:shadow-xl focus:ring-[--foreground]',
   };
 
   const sizeStyles = {
