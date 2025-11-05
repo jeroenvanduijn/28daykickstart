@@ -109,7 +109,13 @@ Replace the placeholder form submission in `components/sections/CTA.tsx` with yo
 
 To complete your landing page with visual content:
 
-**📸 Quick Start (15 minutes):**
+**🌐 Upload via GitHub Website (Makkelijkst! Geen lokale code nodig):**
+See `UPLOAD_VIA_GITHUB_WEBSITE.md` for step-by-step instructions to:
+- Upload photos directly via GitHub.com
+- No terminal/git commands needed
+- Visual walkthrough in `GITHUB_UPLOAD_SCREENSHOTS.md`
+
+**💻 Upload via Local Project (Voor developers):**
 See `QUICK_START_MEDIA.md` for step-by-step instructions to add:
 - Hero background image
 - Member story video
