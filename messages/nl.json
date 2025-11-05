@@ -3,8 +3,12 @@
     "headline": "28 Dagen Kickstart voor Drukke Schema's",
     "subheadline": "Geef je fitness een boost in 28 dagen – geen ervaring nodig, geen druk. Alle niveaus welkom.",
     "tagline": "Gewone mensen, buitengewoon sterk",
+    "taglinePrefix": "Gewone mensen, ",
+    "taglineEmphasis": "BUITENGEWOON STERK",
     "cta": "Plan Gratis Intro",
-    "microCopy": "Geen verplichtingen. 15 minuten. Geen workout."
+    "microCopy": "Geen verplichtingen. 15 minuten. Geen workout.",
+    "allLevelsWelcome": "✓ Alle niveaus welkom",
+    "rating": "4.9 van onze leden"
   },
   "benefits": {
     "heading": "Wat Je Krijgt",

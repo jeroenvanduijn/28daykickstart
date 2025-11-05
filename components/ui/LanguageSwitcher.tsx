@@ -20,27 +20,29 @@ export function LanguageSwitcher() {
   };
 
   return (
-    <div className="flex items-center gap-2 text-sm">
+    <div className="flex items-center gap-2 text-sm font-medium">
       <button
         onClick={() => switchLocale('en')}
-        className={`px-3 py-1 rounded transition-colors ${
+        className={`px-4 py-2 rounded-md transition-all duration-200 ${
           locale === 'en'
-            ? 'bg-[--cinnabar] text-white font-bold'
-            : 'text-gray-600 hover:text-[--foreground]'
+            ? 'bg-[--cinnabar] text-white font-bold shadow-md scale-105'
+            : 'text-[--foreground] hover:bg-gray-100 hover:scale-105 hover:shadow-sm border border-gray-300'
         }`}
         disabled={isPending}
+        aria-label="Switch to English"
       >
         EN
       </button>
-      <span className="text-gray-400">|</span>
+      <span className="text-gray-400 font-normal">|</span>
       <button
         onClick={() => switchLocale('nl')}
-        className={`px-3 py-1 rounded transition-colors ${
+        className={`px-4 py-2 rounded-md transition-all duration-200 ${
           locale === 'nl'
-            ? 'bg-[--cinnabar] text-white font-bold'
-            : 'text-gray-600 hover:text-[--foreground]'
+            ? 'bg-[--cinnabar] text-white font-bold shadow-md scale-105'
+            : 'text-[--foreground] hover:bg-gray-100 hover:scale-105 hover:shadow-sm border border-gray-300'
         }`}
         disabled={isPending}
+        aria-label="Schakel naar Nederlands"
       >
         NL
       </button>

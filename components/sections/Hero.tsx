@@ -5,14 +5,15 @@ export function Hero() {
   const t = useTranslations('hero');
 
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center bg-gradient-to-br from-gray-50 to-white">
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-white pt-20">
       {/* Background image placeholder - in production, add real gym photos */}
       <div className="absolute inset-0 bg-black/5 z-0" />
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        {/* Tagline */}
-        <p className="text-sm sm:text-base font-medium text-[--chinese-violet] mb-4 uppercase tracking-wide">
-          {t('tagline')}
+        {/* Tagline with emphasized "BUITENGEWOON STERK" */}
+        <p className="text-base sm:text-lg font-bold mb-4 uppercase tracking-wide">
+          <span className="text-[--chinese-violet]">{t('taglinePrefix')}</span>
+          <span className="text-[--cinnabar] text-lg sm:text-xl">{t('taglineEmphasis')}</span>
         </p>
 
         {/* Main Headline */}
@@ -25,22 +26,31 @@ export function Hero() {
           {t('subheadline')}
         </p>
 
-        {/* CTA Button */}
-        <div className="mb-4">
-          <Button size="lg" href="#booking">
+        {/* CTA Button with "Alle niveaus welkom" */}
+        <div className="mb-3">
+          <Button
+            size="lg"
+            href="#booking"
+            className="bg-[--jonquil] text-[--foreground] hover:bg-[#deb512] font-bold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all"
+          >
             {t('cta')}
           </Button>
         </div>
+
+        {/* "Alle niveaus welkom" trust message */}
+        <p className="text-base font-semibold text-[--cinnabar] mb-2">
+          {t('allLevelsWelcome')}
+        </p>
 
         {/* Micro-copy */}
         <p className="text-sm text-gray-600 italic">
           {t('microCopy')}
         </p>
 
-        {/* Visual Trust Indicator */}
-        <div className="mt-12 flex items-center justify-center gap-2 text-[--jonquil]">
-          <span className="text-2xl">★★★★★</span>
-          <span className="text-sm text-gray-600">4.9 from our members</span>
+        {/* Visual Trust Indicator with improved star visibility */}
+        <div className="mt-12 flex items-center justify-center gap-2">
+          <span className="text-3xl" style={{ color: '#F7CB15' }}>★★★★★</span>
+          <span className="text-base font-medium text-gray-700">{t('rating')}</span>
         </div>
       </div>
 

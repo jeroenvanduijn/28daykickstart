@@ -3,8 +3,12 @@
     "headline": "28-Day Kickstart for Busy Schedules",
     "subheadline": "Jumpstart your fitness in 28 days – no experience needed, no pressure. All levels welcome.",
     "tagline": "Everyday people, exceptionally strong",
+    "taglinePrefix": "Everyday people, ",
+    "taglineEmphasis": "EXCEPTIONALLY STRONG",
     "cta": "Book Free Intro",
-    "microCopy": "No obligations. 15 minutes. No workout."
+    "microCopy": "No obligations. 15 minutes. No workout.",
+    "allLevelsWelcome": "✓ All levels welcome",
+    "rating": "4.9 from our members"
   },
   "benefits": {
     "heading": "What You'll Get",
