@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Coach welcomes new member</title>
+  <desc id="desc">Illustration of a CrossFit coach greeting a new athlete with warm colors</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FDF2EC" />
+      <stop offset="100%" stop-color="#FFE6D9" />
+    </linearGradient>
+    <linearGradient id="highlight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EF4C37" />
+      <stop offset="100%" stop-color="#F7CB15" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)" rx="48" />
+  <g transform="translate(120 80)">
+    <rect x="-40" y="320" width="640" height="48" rx="24" fill="#F2F2F2" />
+    <g transform="translate(60 80)">
+      <circle cx="120" cy="120" r="88" fill="#0CBABA" opacity="0.15" />
+      <rect x="100" y="200" width="120" height="160" rx="56" fill="#0CBABA" />
+      <circle cx="160" cy="120" r="64" fill="#F9D4C0" />
+      <path d="M112 240c16 48 80 48 96 0" fill="#0CBABA" />
+      <path d="M208 192c12-28 52-44 92-28 64 24 92 112 44 180-20 28-84 24-112-4-20-20-24-72-24-96" fill="#EF4C37" opacity="0.9" />
+      <circle cx="336" cy="144" r="68" fill="#FCE8C1" />
+      <path d="M300 260c28 40 124 40 152 0" fill="#F7CB15" opacity="0.85" />
+    </g>
+    <g transform="translate(300 240)">
+      <path d="M0 0c28 12 52 12 80 0" stroke="#EF4C37" stroke-width="16" stroke-linecap="round" />
+      <path d="M24 -16c20 -32 36 -44 60 -44 24 0 44 12 60 44" stroke="#7B6D8D" stroke-width="10" stroke-linecap="round" fill="none" />
+    </g>
+    <rect x="320" y="140" width="160" height="200" rx="48" fill="#7B6D8D" opacity="0.85" />
+    <rect x="360" y="160" width="80" height="120" rx="40" fill="#EF4C37" />
+    <circle cx="400" cy="140" r="48" fill="#FFE6D9" />
+    <circle cx="440" cy="140" r="18" fill="#EF4C37" opacity="0.6" />
+    <path d="M380 216c12 32 56 32 68 0" fill="#EF4C37" />
+    <path d="M180 308c32 24 120 24 160 0" stroke="#EF4C37" stroke-width="14" stroke-linecap="round" />
+    <path d="M120 60c40 -40 160 -60 240 -20" stroke="url(#highlight)" stroke-width="12" stroke-linecap="round" />
+  </g>
+</svg>

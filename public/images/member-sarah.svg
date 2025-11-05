@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-labelledby="title desc">
+  <title id="title">Sarah after class</title>
+  <desc id="desc">Portrait illustration of Sarah smiling after a CrossFit class</desc>
+  <rect width="320" height="240" rx="32" fill="#FFE6D9" />
+  <circle cx="160" cy="120" r="72" fill="#EF4C37" opacity="0.85" />
+  <circle cx="160" cy="120" r="56" fill="#FCE8C1" />
+  <path d="M110 160c24 28 76 28 100 0" fill="#0CBABA" opacity="0.85" />
+  <path d="M130 96c12-16 48-16 60 0" stroke="#7B6D8D" stroke-width="8" stroke-linecap="round" fill="none" />
+</svg>
