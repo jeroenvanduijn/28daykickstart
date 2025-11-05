@@ -14,24 +14,27 @@ export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
+type LocaleLayoutProps = {
+  children: React.ReactNode;
+  params: Promise<{ locale: string }>;
+};
+
 export default async function LocaleLayout({
   children,
   params,
-}: {
-  children: React.ReactNode;
-  params: { locale: Locale };
-}) {
-  const { locale } = params;
+}: LocaleLayoutProps) {
+  const { locale } = await params;
+  const normalizedLocale = locale as Locale;
 
   // Validate locale
-  if (!locales.includes(locale)) {
+  if (!locales.includes(normalizedLocale)) {
     notFound();
   }
 
-  const messages = await getMessages({ locale });
+  const messages = await getMessages({ locale: normalizedLocale });
 
   return (
-    <html lang={locale}>
+    <html lang={normalizedLocale}>
       <body className="antialiased">
         <NextIntlClientProvider messages={messages}>
           {children}
