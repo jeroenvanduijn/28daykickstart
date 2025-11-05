@@ -3,8 +3,9 @@
     "headline": "28-Day Kickstart for Busy Schedules",
     "subheadline": "Jumpstart your fitness in 28 days – no experience needed, no pressure. All levels welcome.",
     "tagline": "Everyday people, exceptionally strong",
-    "cta": "Book Free Intro",
-    "microCopy": "No obligations. 15 minutes. No workout."
+    "cta": "Book a Free Intro",
+    "microCopy": "No obligations. 15 minutes. No workout.",
+    "ratingLabel": "Rated 4.9 by our members"
   },
   "benefits": {
     "heading": "What You'll Get",
@@ -60,7 +61,9 @@
       "quote": "I was hesitant when signing up, but after my first class I felt comfortable. Workouts cater to all different levels – so don't worry!",
       "name": "Lisa",
       "role": "Parent of three"
-    }
+    },
+    "socialProof": "Trusted by more than 150 local residents",
+    "averageRatingLabel": "4.9 average rating"
   },
   "cta": {
     "ready": "Ready to get started?",

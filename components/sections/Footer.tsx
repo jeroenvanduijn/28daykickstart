@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { LanguageSwitcher } from '@/components/ui/LanguageSwitcher';
 
@@ -32,12 +33,12 @@ export function Footer() {
             <h4 className="font-bold mb-3">Language</h4>
             <LanguageSwitcher />
             <div className="mt-6">
-              <a href="/privacy" className="text-sm text-gray-400 hover:text-white block mb-2">
+              <Link href="/privacy" className="text-sm text-gray-400 hover:text-white block mb-2">
                 {t('privacy')}
-              </a>
-              <a href="/contact" className="text-sm text-gray-400 hover:text-white block">
+              </Link>
+              <Link href="/contact" className="text-sm text-gray-400 hover:text-white block">
                 {t('contact')}
-              </a>
+              </Link>
             </div>
           </div>
         </div>
