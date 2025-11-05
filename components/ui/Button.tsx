@@ -17,17 +17,17 @@ export function Button({
   href,
   className = '',
 }: ButtonProps) {
-  const baseStyles = 'inline-flex items-center justify-center font-semibold text-center transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2';
+  const baseStyles = 'inline-flex items-center justify-center font-bold text-center transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-offset-2 transform hover:scale-105 active:scale-100';
 
   const variantStyles = {
-    primary: 'bg-[--jonquil] text-black hover:bg-[--cinnabar] hover:text-white focus:ring-[--jonquil] rounded-lg shadow-[0_2px_8px_rgba(0,0,0,0.25)]',
-    secondary: 'bg-white text-[--foreground] border-2 border-[--foreground] hover:bg-gray-50 hover:shadow-xl focus:ring-[--foreground] rounded-lg',
+    primary: 'bg-[--jonquil] text-black hover:bg-[--cinnabar] hover:text-white focus:ring-[--jonquil]/50 rounded-lg shadow-[0_4px_12px_rgba(0,0,0,0.35)] hover:shadow-[0_6px_20px_rgba(0,0,0,0.45)]',
+    secondary: 'bg-white text-[--foreground] border-2 border-[--foreground] hover:bg-gray-50 hover:shadow-xl focus:ring-[--foreground]/30 rounded-lg shadow-md',
   };
 
   const sizeStyles = {
-    sm: 'px-4 py-2 text-sm min-w-[120px]',
-    md: 'px-6 py-3 text-base min-w-[200px]',
-    lg: 'px-8 py-4 text-lg min-w-[280px]',
+    sm: 'px-5 py-2.5 text-sm min-w-[140px]',
+    md: 'px-7 py-3.5 text-base min-w-[220px]',
+    lg: 'px-10 py-5 text-xl font-extrabold min-w-[300px]',
   };
 
   const combinedStyles = `${baseStyles} ${variantStyles[variant]} ${sizeStyles[size]} ${className}`;

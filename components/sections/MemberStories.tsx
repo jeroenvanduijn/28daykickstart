@@ -10,7 +10,7 @@ export function MemberStories() {
           {t('heading')}
         </h2>
         <div className="w-24 h-1 bg-[--jonquil] mx-auto mb-8"></div>
-        <p className="text-lg text-gray-300 text-center mb-12 max-w-2xl mx-auto">
+        <p className="text-lg sm:text-xl text-gray-200 text-center mb-12 max-w-2xl mx-auto font-medium">
           {t('subheading')}
         </p>
 
@@ -45,16 +45,16 @@ export function MemberStories() {
         {/* Stats below video */}
         <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
           <div>
-            <div className="text-4xl font-bold text-[--jonquil] mb-2">150+</div>
-            <p className="text-gray-400">{t('stat1')}</p>
+            <div className="text-5xl sm:text-6xl font-extrabold text-[--jonquil] mb-2">150+</div>
+            <p className="text-gray-300 text-base font-medium">{t('stat1')}</p>
           </div>
           <div>
-            <div className="text-4xl font-bold text-[--jonquil] mb-2">28</div>
-            <p className="text-gray-400">{t('stat2')}</p>
+            <div className="text-5xl sm:text-6xl font-extrabold text-[--jonquil] mb-2">28</div>
+            <p className="text-gray-300 text-base font-medium">{t('stat2')}</p>
           </div>
           <div>
-            <div className="text-4xl font-bold text-[--jonquil] mb-2">4.9</div>
-            <p className="text-gray-400">{t('stat3')}</p>
+            <div className="text-5xl sm:text-6xl font-extrabold text-[--jonquil] mb-2">4.9</div>
+            <p className="text-gray-300 text-base font-medium">{t('stat3')}</p>
           </div>
         </div>
       </div>

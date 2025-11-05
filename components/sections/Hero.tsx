@@ -13,30 +13,31 @@ export function Hero() {
         backgroundPosition: 'center',
       }}
     >
-      {/* Dark overlay for text readability - 45% as per branding guidelines */}
-      <div className="absolute inset-0 bg-black/45 z-0" />
+      {/* Dark overlay for text readability - 50% for stronger contrast */}
+      <div className="absolute inset-0 bg-black/50 z-0" />
 
-      <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-[15vh]">
-        {/* Tagline */}
+      <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-[15vh] pb-8">
+        {/* Tagline with accent color on "buitengewoon sterk" */}
         <p
-          className="text-sm sm:text-base font-medium text-[--jonquil] mb-4 uppercase tracking-wide"
-          style={{ textShadow: '0 2px 6px rgba(0,0,0,0.5)' }}
+          className="text-base sm:text-lg font-semibold mb-4 uppercase tracking-wide"
+          style={{ textShadow: '0 2px 8px rgba(0,0,0,0.7)' }}
         >
-          {t('tagline')}
+          <span className="text-white">Gewone mensen, </span>
+          <span className="text-[--jonquil]">buitengewoon sterk</span>
         </p>
 
-        {/* Main Headline */}
+        {/* Main Headline - extra bold and high contrast */}
         <h1
-          className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight"
-          style={{ textShadow: '0 2px 6px rgba(0,0,0,0.5)' }}
+          className="text-5xl sm:text-6xl lg:text-7xl font-extrabold text-white mb-6 leading-tight"
+          style={{ textShadow: '0 3px 10px rgba(0,0,0,0.8)' }}
         >
           {t('headline')}
         </h1>
 
-        {/* Subheadline */}
+        {/* Subheadline - improved contrast */}
         <p
-          className="text-lg sm:text-xl text-white mb-8 max-w-2xl mx-auto leading-relaxed"
-          style={{ textShadow: '0 2px 6px rgba(0,0,0,0.5)' }}
+          className="text-xl sm:text-2xl text-white mb-10 max-w-2xl mx-auto leading-relaxed font-medium"
+          style={{ textShadow: '0 2px 8px rgba(0,0,0,0.7)' }}
         >
           {t('subheadline')}
         </p>
