@@ -1,3 +1,4 @@
+import { Header } from '@/components/sections/Header';
 import { Hero } from '@/components/sections/Hero';
 import { Benefits } from '@/components/sections/Benefits';
 import { HowItWorks } from '@/components/sections/HowItWorks';
@@ -9,15 +10,18 @@ import { Footer } from '@/components/sections/Footer';
 
 export default function LandingPage() {
   return (
-    <main className="min-h-screen">
-      <Hero />
-      <Benefits />
-      <HowItWorks />
-      <MemberStories />
-      <Testimonials />
-      <CTA />
-      <FAQ />
-      <Footer />
-    </main>
+    <>
+      <Header />
+      <main className="min-h-screen">
+        <Hero />
+        <Benefits />
+        <HowItWorks />
+        <MemberStories />
+        <Testimonials />
+        <CTA />
+        <FAQ />
+        <Footer />
+      </main>
+    </>
   );
 }

@@ -5,7 +5,7 @@ export function Hero() {
   const t = useTranslations('hero');
 
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center bg-gradient-to-br from-gray-50 to-white">
+    <section className="relative min-h-[90vh] flex items-center justify-center bg-gradient-to-br from-gray-50 to-white pt-16">
       {/* Background image placeholder - in production, add real gym photos */}
       <div className="absolute inset-0 bg-black/5 z-0" />
 
