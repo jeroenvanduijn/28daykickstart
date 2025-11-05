@@ -19,11 +19,12 @@ export function FAQ() {
   };
 
   return (
-    <section className="py-16 sm:py-20 lg:py-24 bg-gray-50">
+    <section className="py-20 sm:py-24 lg:py-28 bg-gray-50">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl sm:text-4xl font-bold text-center text-[--foreground] mb-12">
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center text-[--foreground] mb-4">
           {t('heading')}
         </h2>
+        <div className="w-24 h-1 bg-[--cinnabar] mx-auto mb-16"></div>
 
         <div className="space-y-4">
           {faqs.map(({ key }, index) => (
@@ -66,13 +67,13 @@ export function FAQ() {
         </div>
 
         {/* Additional CTA after FAQ */}
-        <div className="mt-12 text-center">
-          <p className="text-gray-700 mb-4">Still have questions?</p>
+        <div className="mt-16 text-center space-y-6">
+          <p className="text-gray-700 text-lg">{t('stillHaveQuestions')}</p>
           <a
             href="#booking"
-            className="inline-block px-6 py-3 bg-white border-2 border-[--foreground] text-[--foreground] font-bold rounded-lg hover:bg-gray-50 transition-colors"
+            className="inline-block px-8 py-4 bg-[--cinnabar] text-white font-bold text-lg rounded-lg hover:bg-[#d63d2a] transition-colors shadow-lg"
           >
-            Book a Free Intro to Learn More
+            {t('bookFreeIntro')}
           </a>
         </div>
       </div>

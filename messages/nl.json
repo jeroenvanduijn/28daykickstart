@@ -4,7 +4,8 @@
     "subheadline": "Geef je fitness een boost in 28 dagen – geen ervaring nodig, geen druk. Alle niveaus welkom.",
     "tagline": "Gewone mensen, buitengewoon sterk",
     "cta": "Plan Gratis Intro",
-    "microCopy": "Geen verplichtingen. 15 minuten. Geen workout."
+    "microCopy": "Geen verplichtingen. 15 minuten. Geen workout.",
+    "rating": "4.9 van onze leden"
   },
   "benefits": {
     "heading": "Wat Je Krijgt",
@@ -44,8 +45,19 @@
       "description": "Na 28 dagen heb je momentum! Afgestudeerden van de Kickstart kunnen naadloos doorgaan naar ons reguliere lidmaatschap, gewapend met nieuw vertrouwen en gewoontes."
     }
   },
+  "memberStories": {
+    "heading": "Echte Mensen, Echte Resultaten",
+    "subheading": "Hoor van mensen zoals jij die hun leven hebben veranderd in slechts 28 dagen",
+    "videoPlaceholder": "Member Story Video",
+    "videoSubtext": "Vervang dit met echte member story video",
+    "stat1": "Actieve Leden",
+    "stat2": "Dagen naar Resultaten",
+    "stat3": "Gemiddelde Beoordeling"
+  },
   "testimonials": {
     "heading": "Wat Onze Leden Zeggen",
+    "trustMessage": "Vertrouwd door meer dan 150+ lokale inwoners",
+    "rating": "4.9 gemiddelde score",
     "testimonial1": {
       "quote": "Ik was nerveus en niet in vorm, maar de coaches waren zo gastvrij. Na 28 dagen voelde ik me sterker en zelfverzekerder – en het paste gemakkelijk rond mijn werk en de planning van de kinderen!",
       "name": "Sarah",
@@ -69,6 +81,8 @@
   },
   "faq": {
     "heading": "Veelgestelde Vragen",
+    "stillHaveQuestions": "Heb je nog vragen?",
+    "bookFreeIntro": "Boek Nu Je Gratis Intro",
     "q1": {
       "question": "Wat is een No-Sweat Intro?",
       "answer": "Een gratis 15-minuten gesprek – geen workout, gewoon praten. Kom in werkkleding als je wilt! We bespreken je doelen en beantwoorden alle vragen."
@@ -89,7 +103,9 @@
   "footer": {
     "address": "CrossFit Leiden, Leiden, Nederland",
     "privacy": "Privacybeleid",
-    "contact": "Neem Contact Op"
+    "contact": "Neem Contact Op",
+    "tagline": "Gewone mensen, buitengewoon sterk",
+    "taglineExtended": "Een tweede huiskamer voor drukke levens – met persoonlijke coaching en plezier."
   },
   "nav": {
     "switchToNL": "Nederlands",

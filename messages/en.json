@@ -4,7 +4,8 @@
     "subheadline": "Jumpstart your fitness in 28 days – no experience needed, no pressure. All levels welcome.",
     "tagline": "Everyday people, exceptionally strong",
     "cta": "Book Free Intro",
-    "microCopy": "No obligations. 15 minutes. No workout."
+    "microCopy": "No obligations. 15 minutes. No workout.",
+    "rating": "4.9 from our members"
   },
   "benefits": {
     "heading": "What You'll Get",
@@ -44,8 +45,19 @@
       "description": "After 28 days, you'll have momentum! Graduates of the Kickstart can seamlessly continue into our regular membership, armed with new confidence and habits."
     }
   },
+  "memberStories": {
+    "heading": "Real People, Real Results",
+    "subheading": "Hear from people like you who transformed their lives in just 28 days",
+    "videoPlaceholder": "Member Story Video",
+    "videoSubtext": "Replace this with actual member story video",
+    "stat1": "Active Members",
+    "stat2": "Days to Results",
+    "stat3": "Average Rating"
+  },
   "testimonials": {
     "heading": "What Our Members Say",
+    "trustMessage": "Trusted by over 150+ local residents",
+    "rating": "4.9 average rating",
     "testimonial1": {
       "quote": "I was nervous and out of shape, but the coaches were so welcoming. After 28 days I felt stronger and more confident – and it easily fit around my work and kids' schedule!",
       "name": "Sarah",
@@ -69,6 +81,8 @@
   },
   "faq": {
     "heading": "Common Questions",
+    "stillHaveQuestions": "Still have questions?",
+    "bookFreeIntro": "Book Your Free Intro Now",
     "q1": {
       "question": "What is a No-Sweat Intro?",
       "answer": "A free 15-minute chat – no workout, just talk. Come in work clothes if you want! We'll discuss your goals and answer any questions."
@@ -89,7 +103,9 @@
   "footer": {
     "address": "CrossFit Leiden, Leiden, Netherlands",
     "privacy": "Privacy Policy",
-    "contact": "Contact Us"
+    "contact": "Contact Us",
+    "tagline": "Everyday people, exceptionally strong",
+    "taglineExtended": "A second living room for busy lives – with personal coaching and joy."
   },
   "nav": {
     "switchToNL": "Nederlands",

@@ -6,8 +6,8 @@ import { locales } from '@/i18n';
 import "../globals.css";
 
 export const metadata: Metadata = {
-  title: "28-Day Kickstart | CrossFit Leiden",
-  description: "Jumpstart your fitness in 28 days – no experience needed, no pressure. All levels welcome at CrossFit Leiden.",
+  title: "CrossFit Leiden Kickstart – 28 Dagen Fitter voor Drukke Ouders en Professionals",
+  description: "Start je fitnessreis in 28 dagen met persoonlijke coaching in Leiden. Geen ervaring nodig, flexibele tijden, gastvrije community. Boek nu je gratis intro – geen workout, gewoon kennismaken.",
 };
 
 export function generateStaticParams() {

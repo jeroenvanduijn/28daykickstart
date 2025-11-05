@@ -40,7 +40,7 @@ export function Hero() {
         {/* Visual Trust Indicator */}
         <div className="mt-12 flex items-center justify-center gap-2 text-[--jonquil]">
           <span className="text-2xl">★★★★★</span>
-          <span className="text-sm text-gray-600">4.9 from our members</span>
+          <span className="text-sm text-gray-600">{t('rating')}</span>
         </div>
       </div>
 
