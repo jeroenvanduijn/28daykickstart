@@ -77,7 +77,10 @@
   "cta": {
     "ready": "Ready to get started?",
     "bookNow": "Book Your Free Intro Now",
-    "noPressure": "No payment or workout required – just a friendly chat!"
+    "noPressure": "No payment or workout required – just a friendly chat!",
+    "trustSignal1": "Free, no obligation intro session",
+    "trustSignal2": "We'll respond within 24 hours",
+    "trustSignal3": "No workout on your first visit – just a friendly chat"
   },
   "faq": {
     "heading": "Common Questions",
@@ -110,5 +113,19 @@
   "nav": {
     "switchToNL": "Nederlands",
     "switchToEN": "English"
+  },
+  "thankYou": {
+    "heading": "Thank You for Reaching Out!",
+    "subheading": "You've taken the first step toward a fitter, stronger, and more confident you.",
+    "message": "We appreciate you taking the time to connect with us. At CrossFit Leiden, we believe fitness doesn't have to be intimidating or overwhelming – it's about progress, community, and having fun along the way.",
+    "nextStepHeading": "Book Your Free Intro Now",
+    "nextStepSubheading": "Ready to take the next step? Choose a time that works for you – it's just 15-20 minutes, and there's no workout involved.",
+    "whatToExpectHeading": "What to Expect",
+    "step1Title": "15-20 Minutes",
+    "step1Description": "A quick, friendly chat – no commitments, no pressure.",
+    "step2Title": "Personal Attention",
+    "step2Description": "We'll listen to your goals and answer all your questions.",
+    "step3Title": "No Workout",
+    "step3Description": "Just come as you are – gym clothes not required!"
   }
 }

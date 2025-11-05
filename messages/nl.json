@@ -77,7 +77,10 @@
   "cta": {
     "ready": "Klaar om te beginnen?",
     "bookNow": "Boek Nu Je Gratis Intro",
-    "noPressure": "Geen betaling of workout vereist – gewoon een vriendelijk gesprek!"
+    "noPressure": "Geen betaling of workout vereist – gewoon een vriendelijk gesprek!",
+    "trustSignal1": "Gratis, geen verplichtingen intro sessie",
+    "trustSignal2": "We reageren binnen 24 uur",
+    "trustSignal3": "Geen workout bij je eerste bezoek – gewoon een vriendelijk gesprek"
   },
   "faq": {
     "heading": "Veelgestelde Vragen",
@@ -110,5 +113,19 @@
   "nav": {
     "switchToNL": "Nederlands",
     "switchToEN": "English"
+  },
+  "thankYou": {
+    "heading": "Bedankt voor je Interesse!",
+    "subheading": "Je hebt de eerste stap gezet naar een fitter, sterker en zelfverzekerder leven.",
+    "message": "We waarderen dat je de tijd hebt genomen om contact met ons op te nemen. Bij CrossFit Leiden geloven we dat fitness niet intimiderend of overweldigend hoeft te zijn – het gaat om vooruitgang, gemeenschap en plezier.",
+    "nextStepHeading": "Plan Direct Je Gratis Intro",
+    "nextStepSubheading": "Klaar om de volgende stap te zetten? Kies een tijd die voor jou werkt – het duurt maar 15-20 minuten en er is geen workout bij betrokken.",
+    "whatToExpectHeading": "Wat Je Kunt Verwachten",
+    "step1Title": "15-20 Minuten",
+    "step1Description": "Een kort, vriendelijk gesprek – geen verplichtingen, geen druk.",
+    "step2Title": "Persoonlijke Aandacht",
+    "step2Description": "We luisteren naar je doelen en beantwoorden al je vragen.",
+    "step3Title": "Geen Workout",
+    "step3Description": "Kom gewoon zoals je bent – sportkleding niet vereist!"
   }
 }
