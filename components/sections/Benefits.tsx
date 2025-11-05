@@ -64,7 +64,7 @@ export function Benefits() {
           {benefits.map(({ key, icon }) => (
             <div key={key} className="text-center">
               <BenefitIcon>{icon}</BenefitIcon>
-              <h3 className="text-lg font-bold text-[--foreground] mb-2">
+              <h3 className="text-lg font-bold text-[--verdigris] mb-2">
                 {t(`${key}.title`)}
               </h3>
               <p className="text-sm text-gray-600 leading-relaxed">

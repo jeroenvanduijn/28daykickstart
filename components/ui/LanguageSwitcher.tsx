@@ -26,13 +26,13 @@ export function LanguageSwitcher({ variant = 'default' }: LanguageSwitcherProps)
   if (variant === 'header') {
     // Compact toggle button for header
     return (
-      <div className="flex items-center bg-white border-2 border-gray-200 rounded-lg overflow-hidden shadow-sm">
+      <div className="flex items-center bg-white/10 border border-white/20 rounded-lg overflow-hidden backdrop-blur-sm">
         <button
           onClick={() => switchLocale('en')}
           className={`px-4 py-2 text-sm font-medium transition-all ${
             locale === 'en'
-              ? 'bg-[--cinnabar] text-white'
-              : 'text-gray-700 hover:bg-gray-50'
+              ? 'bg-[--jonquil] text-black'
+              : 'text-white hover:bg-white/10'
           }`}
           disabled={isPending}
           aria-label="Switch to English"
@@ -43,8 +43,8 @@ export function LanguageSwitcher({ variant = 'default' }: LanguageSwitcherProps)
           onClick={() => switchLocale('nl')}
           className={`px-4 py-2 text-sm font-medium transition-all ${
             locale === 'nl'
-              ? 'bg-[--cinnabar] text-white'
-              : 'text-gray-700 hover:bg-gray-50'
+              ? 'bg-[--jonquil] text-black'
+              : 'text-white hover:bg-white/10'
           }`}
           disabled={isPending}
           aria-label="Schakel naar Nederlands"

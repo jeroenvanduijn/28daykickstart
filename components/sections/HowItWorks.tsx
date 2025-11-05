@@ -32,7 +32,7 @@ export function HowItWorks() {
 
               {/* Step Content */}
               <div className="text-center md:text-left">
-                <h3 className="text-xl font-bold text-[--foreground] mb-3">
+                <h3 className="text-xl font-bold text-[--verdigris] mb-3">
                   {t(`${key}.title`)}
                 </h3>
                 <p className="text-gray-600 leading-relaxed">

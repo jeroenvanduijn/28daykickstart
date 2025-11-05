@@ -71,7 +71,7 @@ export function FAQ() {
           <p className="text-gray-700 text-lg font-medium">{t('stillHaveQuestions')}</p>
           <a
             href="#booking"
-            className="inline-block px-8 py-4 bg-[--cinnabar] text-white font-bold text-lg rounded-lg hover:bg-[#d63d2a] hover:shadow-xl transition-all shadow-lg transform hover:scale-105"
+            className="inline-block px-8 py-4 bg-[--jonquil] text-black font-bold text-lg rounded-lg hover:bg-[--cinnabar] hover:text-white transition-all shadow-[0_2px_8px_rgba(0,0,0,0.25)] hover:shadow-xl transform hover:scale-105 min-w-[280px]"
           >
             {t('bookFreeIntro')}
           </a>

@@ -17,17 +17,17 @@ export function Button({
   href,
   className = '',
 }: ButtonProps) {
-  const baseStyles = 'inline-block font-bold text-center transition-all duration-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 shadow-lg';
+  const baseStyles = 'inline-flex items-center justify-center font-semibold text-center transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2';
 
   const variantStyles = {
-    primary: 'bg-[--cinnabar] text-white hover:bg-[#d63d2a] hover:shadow-xl focus:ring-[--cinnabar]',
-    secondary: 'bg-white text-[--foreground] border-2 border-[--foreground] hover:bg-gray-50 hover:shadow-xl focus:ring-[--foreground]',
+    primary: 'bg-[--jonquil] text-black hover:bg-[--cinnabar] hover:text-white focus:ring-[--jonquil] rounded-lg shadow-[0_2px_8px_rgba(0,0,0,0.25)]',
+    secondary: 'bg-white text-[--foreground] border-2 border-[--foreground] hover:bg-gray-50 hover:shadow-xl focus:ring-[--foreground] rounded-lg',
   };
 
   const sizeStyles = {
-    sm: 'px-4 py-2 text-sm',
-    md: 'px-6 py-3 text-base',
-    lg: 'px-8 py-4 text-lg',
+    sm: 'px-4 py-2 text-sm min-w-[120px]',
+    md: 'px-6 py-3 text-base min-w-[200px]',
+    lg: 'px-8 py-4 text-lg min-w-[280px]',
   };
 
   const combinedStyles = `${baseStyles} ${variantStyles[variant]} ${sizeStyles[size]} ${className}`;
