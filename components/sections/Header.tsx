@@ -27,7 +27,8 @@ export function Header() {
             <LanguageSwitcher variant="header" />
             <a
               href="#booking"
-              className="hidden sm:inline-flex items-center px-6 py-2.5 bg-[--jonquil] text-black font-extrabold text-sm rounded-lg hover:bg-[--cinnabar] hover:text-white transition-all shadow-[0_4px_12px_rgba(0,0,0,0.4)] hover:shadow-[0_6px_16px_rgba(0,0,0,0.5)] transform hover:scale-105 active:scale-100"
+              className="hidden sm:inline-flex items-center px-7 py-3 bg-[--jonquil] text-black font-extrabold text-base rounded-lg border-3 border-black hover:bg-[--cinnabar] hover:text-white transition-all shadow-[0_6px_16px_rgba(247,203,21,0.6)] hover:shadow-[0_8px_24px_rgba(239,76,55,0.7)] transform hover:scale-110 active:scale-100"
+              style={{ boxShadow: '0 0 0 2px rgba(0,0,0,0.8), 0 6px 16px rgba(247,203,21,0.6)' }}
             >
               {t('cta')}
             </a>

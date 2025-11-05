@@ -18,12 +18,22 @@ export function Hero() {
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-[15vh] pb-8">
         {/* Tagline with accent color on "buitengewoon sterk" */}
-        <p
-          className="text-base sm:text-lg font-semibold mb-4 uppercase tracking-wide"
-          style={{ textShadow: '0 2px 8px rgba(0,0,0,0.7)' }}
-        >
-          <span className="text-white">Gewone mensen, </span>
-          <span className="text-[--jonquil]">buitengewoon sterk</span>
+        <p className="text-base sm:text-lg font-semibold mb-4 uppercase tracking-wide">
+          <span
+            className="text-white"
+            style={{ textShadow: '0 2px 8px rgba(0,0,0,0.9)' }}
+          >
+            Gewone mensen,{' '}
+          </span>
+          <span
+            className="text-[--jonquil] font-extrabold"
+            style={{
+              textShadow: '0 0 8px rgba(0,0,0,1), 0 0 16px rgba(0,0,0,0.9), 0 3px 12px rgba(0,0,0,0.8)',
+              WebkitTextStroke: '1px rgba(0,0,0,0.3)'
+            }}
+          >
+            buitengewoon sterk
+          </span>
         </p>
 
         {/* Main Headline - extra bold and high contrast */}

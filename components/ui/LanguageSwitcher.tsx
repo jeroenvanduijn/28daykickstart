@@ -24,28 +24,28 @@ export function LanguageSwitcher({ variant = 'default' }: LanguageSwitcherProps)
   };
 
   if (variant === 'header') {
-    // Compact toggle button for header
+    // Compact toggle button for header - bright and readable
     return (
-      <div className="flex items-center bg-white/15 border-2 border-white/30 rounded-lg overflow-hidden backdrop-blur-sm shadow-md">
+      <div className="flex items-center bg-white rounded-lg overflow-hidden shadow-lg">
         <button
           onClick={() => switchLocale('en')}
-          className={`px-4 py-2 text-sm font-bold transition-all ${
+          className={`px-4 py-2 text-sm font-extrabold transition-all ${
             locale === 'en'
-              ? 'bg-[--jonquil] text-black shadow-inner'
-              : 'text-white hover:bg-white/20'
+              ? 'bg-[--jonquil] text-black'
+              : 'bg-white text-gray-700 hover:bg-gray-100'
           }`}
           disabled={isPending}
           aria-label="Switch to English"
         >
           EN
         </button>
-        <div className="w-px h-6 bg-white/30"></div>
+        <div className="w-px h-6 bg-gray-300"></div>
         <button
           onClick={() => switchLocale('nl')}
-          className={`px-4 py-2 text-sm font-bold transition-all ${
+          className={`px-4 py-2 text-sm font-extrabold transition-all ${
             locale === 'nl'
-              ? 'bg-[--jonquil] text-black shadow-inner'
-              : 'text-white hover:bg-white/20'
+              ? 'bg-[--jonquil] text-black'
+              : 'bg-white text-gray-700 hover:bg-gray-100'
           }`}
           disabled={isPending}
           aria-label="Schakel naar Nederlands"
