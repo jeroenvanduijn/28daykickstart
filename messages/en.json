@@ -231,6 +231,10 @@
     "cta": "Plan free intro",
     "ctaShort": "Plan intro",
     "switchToNL": "Nederlands",
-    "switchToEN": "English"
+    "switchToEN": "English",
+    "menuToggle": {
+      "open": "Open menu",
+      "close": "Close menu"
+    }
   }
 }
