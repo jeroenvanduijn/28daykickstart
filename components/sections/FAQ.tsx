@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { useState } from 'react';
+import { Button } from '@/components/ui/Button';
 
 export function FAQ() {
   const t = useTranslations('faq');
@@ -19,28 +20,31 @@ export function FAQ() {
   };
 
   return (
-    <section className="py-16 sm:py-20 lg:py-24 bg-gray-50">
-      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl sm:text-4xl font-bold text-center text-[--foreground] mb-12">
+    <section id="faq" className="scroll-mt-32 bg-[#f8f6ff] py-16 sm:py-20 lg:py-24">
+      <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+        <h2 className="mb-3 text-center text-3xl font-bold text-[var(--foreground)] sm:text-4xl">
           {t('heading')}
         </h2>
+        <p className="mx-auto mb-12 max-w-2xl text-center text-base text-gray-600 sm:text-lg">
+          {t('subheading')}
+        </p>
 
         <div className="space-y-4">
           {faqs.map(({ key }, index) => (
             <div
               key={key}
-              className="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden"
+              className="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm"
             >
               {/* Question Button */}
               <button
                 onClick={() => toggleFAQ(index)}
-                className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-50 transition-colors"
+                className="flex w-full items-center justify-between px-6 py-4 text-left transition-colors hover:bg-gray-50"
               >
-                <span className="font-bold text-[--foreground] pr-4">
+                <span className="pr-4 font-bold text-[var(--foreground)]">
                   {t(`${key}.question`)}
                 </span>
                 <svg
-                  className={`w-5 h-5 text-[--cinnabar] transform transition-transform flex-shrink-0 ${
+                  className={`w-5 h-5 text-[var(--cinnabar)] transform transition-transform flex-shrink-0 ${
                     openIndex === index ? 'rotate-180' : ''
                   }`}
                   fill="none"
@@ -57,7 +61,7 @@ export function FAQ() {
                   openIndex === index ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
                 }`}
               >
-                <div className="px-6 pb-4 text-gray-600 leading-relaxed">
+                <div className="px-6 pb-4 leading-relaxed text-gray-600">
                   {t(`${key}.answer`)}
                 </div>
               </div>
@@ -67,13 +71,10 @@ export function FAQ() {
 
         {/* Additional CTA after FAQ */}
         <div className="mt-12 text-center">
-          <p className="text-gray-700 mb-4">Still have questions?</p>
-          <a
-            href="#booking"
-            className="inline-block px-6 py-3 bg-white border-2 border-[--foreground] text-[--foreground] font-bold rounded-lg hover:bg-gray-50 transition-colors"
-          >
-            Book a Free Intro to Learn More
-          </a>
+          <p className="mb-4 text-gray-700">{t('supportTitle')}</p>
+          <Button variant="secondary" href="#booking">
+            {t('supportCta')}
+          </Button>
         </div>
       </div>
     </section>
