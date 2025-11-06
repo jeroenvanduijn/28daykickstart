@@ -38,7 +38,7 @@ export function CTA() {
   return (
     <section
       id="booking"
-      className="bg-gradient-to-br from-[color:var(--cinnabar)] to-[#d63d2a] py-16 text-white sm:py-20 lg:py-24"
+      className="scroll-mt-32 bg-gradient-to-br from-[color:var(--cinnabar)] to-[#d63d2a] py-16 text-white sm:py-20 lg:py-24"
     >
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
         {/* Heading */}

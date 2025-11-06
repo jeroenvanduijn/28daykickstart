@@ -27,24 +27,25 @@ export function MemberStories() {
   const t = useTranslations('memberStories');
 
   return (
-    <section id="member-stories" className="bg-white py-16 sm:py-20 lg:py-24">
+    <section id="member-stories" className="scroll-mt-32 bg-[#f8f8f8] py-16 sm:py-20 lg:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-3xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-wide text-[var(--cinnabar)]">
-            {t('eyebrow')}
-          </p>
-          <h2 className="mt-3 text-3xl font-bold text-[var(--foreground)] sm:text-4xl">
-            {t('heading')}
-          </h2>
-          <p className="mt-4 text-base text-gray-600 sm:text-lg">{t('subheading')}</p>
-        </div>
+        <div className="rounded-3xl bg-white p-8 shadow-lg ring-1 ring-black/5 md:p-12">
+          <div className="mx-auto max-w-3xl text-center">
+            <p className="text-sm font-semibold uppercase tracking-wide text-[var(--cinnabar)]">
+              {t('eyebrow')}
+            </p>
+            <h2 className="mt-3 text-3xl font-bold text-[var(--foreground)] sm:text-4xl">
+              {t('heading')}
+            </h2>
+            <p className="mt-4 text-base text-gray-600 sm:text-lg">{t('subheading')}</p>
+          </div>
 
-        <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
-          {stories.map(({ key, image, videoUrl, duration }) => (
-            <article
-              key={key}
-              className="group relative overflow-hidden rounded-3xl bg-gray-900 text-white shadow-lg"
-            >
+          <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
+            {stories.map(({ key, image, videoUrl, duration }) => (
+              <article
+                key={key}
+                className="group relative overflow-hidden rounded-3xl bg-gray-900 text-white shadow-lg"
+              >
               <Image
                 src={image}
                 alt={t(`${key}.imageAlt`)}
@@ -83,6 +84,7 @@ export function MemberStories() {
               </div>
             </article>
           ))}
+          </div>
         </div>
       </div>
     </section>

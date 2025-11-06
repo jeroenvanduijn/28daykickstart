@@ -200,9 +200,10 @@
   },
   "stickyCta": {
     "eyebrow": "Start today",
-    "headline": "Free intro call",
     "subheadline": "Reserve your 15-minute chat or send us a quick WhatsApp message.",
-    "primary": "Book intro",
+    "barPrimary": "Plan your free intro",
+    "barSecondary": "Message us on WhatsApp",
+    "primary": "Plan free intro",
     "secondary": "Send WhatsApp"
   },
   "footer": {
@@ -218,6 +219,17 @@
     "rights": "All rights reserved"
   },
   "nav": {
+    "brand": "CFL Kickstart",
+    "ariaLabel": "Main navigation",
+    "links": {
+      "benefits": "What you get",
+      "howItWorks": "What to expect",
+      "community": "Community",
+      "stories": "Member stories",
+      "faq": "FAQ"
+    },
+    "cta": "Plan free intro",
+    "ctaShort": "Plan intro",
     "switchToNL": "Nederlands",
     "switchToEN": "English"
   }

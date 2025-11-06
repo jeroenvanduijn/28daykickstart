@@ -6,9 +6,9 @@ export function Hero() {
   const t = useTranslations('hero');
 
   return (
-    <section className="relative overflow-hidden bg-white">
+    <section id="hero" className="relative overflow-hidden bg-white pt-28 sm:pt-32">
       <div className="absolute inset-0 bg-gradient-to-br from-[#fff7f4] via-white to-[#f0fbfa]" aria-hidden />
-      <div className="relative mx-auto grid max-w-7xl gap-12 px-4 py-20 sm:px-6 lg:grid-cols-[minmax(0,1fr)_minmax(320px,480px)] lg:items-center lg:px-12 lg:py-28">
+      <div className="relative mx-auto grid max-w-7xl gap-12 px-4 pb-20 sm:px-6 lg:grid-cols-[minmax(0,1fr)_minmax(320px,480px)] lg:items-center lg:px-12 lg:pb-28">
         <div className="text-left">
           <p className="mb-4 inline-flex items-center rounded-full bg-[var(--verdigris)]/10 px-4 py-1 text-xs font-semibold uppercase tracking-wider text-[var(--verdigris)]">
             {t('tagline')}
@@ -68,7 +68,7 @@ export function Hero() {
               alt={t('heroImageAlt')}
               width={960}
               height={720}
-              className="h-full w-full object-cover"
+              className="h-72 w-full object-cover sm:h-full"
               priority
             />
           </div>

@@ -20,7 +20,7 @@ export function FAQ() {
   };
 
   return (
-    <section className="bg-[#f8f6ff] py-16 sm:py-20 lg:py-24">
+    <section id="faq" className="scroll-mt-32 bg-[#f8f6ff] py-16 sm:py-20 lg:py-24">
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
         <h2 className="mb-3 text-center text-3xl font-bold text-[var(--foreground)] sm:text-4xl">
           {t('heading')}

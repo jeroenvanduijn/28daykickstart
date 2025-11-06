@@ -37,7 +37,7 @@ export function TrustSignals() {
   ];
 
   return (
-    <section className="bg-[var(--verdigris)]/10 py-16 sm:py-20 lg:py-24">
+    <section id="trust" className="scroll-mt-32 bg-[var(--verdigris)]/10 py-16 sm:py-20 lg:py-24">
       <div className="mx-auto flex max-w-7xl flex-col gap-12 px-4 sm:px-6 lg:flex-row lg:items-center lg:px-8">
         <div className="lg:w-2/5">
           <p className="text-sm font-semibold uppercase tracking-wide text-[var(--verdigris)]">

@@ -7,7 +7,7 @@ export function CommunitySpotlight() {
   const highlights = ['welcome', 'support', 'celebration'];
 
   return (
-    <section className="bg-[#fff4f1] py-16 sm:py-20 lg:py-24">
+    <section id="community" className="scroll-mt-32 bg-[#fff4f1] py-16 sm:py-20 lg:py-24">
       <div className="mx-auto flex max-w-7xl flex-col-reverse gap-12 px-4 sm:px-6 lg:flex-row lg:items-center lg:px-12">
         <div className="lg:w-1/2">
           <div className="relative overflow-hidden rounded-3xl shadow-lg ring-1 ring-black/5">

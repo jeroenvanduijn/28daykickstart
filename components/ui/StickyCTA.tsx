@@ -7,17 +7,26 @@ export function StickyCTA() {
   const t = useTranslations('stickyCta');
 
   return (
-    <div className="fixed inset-x-4 bottom-4 z-50 mx-auto max-w-md rounded-2xl bg-white/95 p-4 shadow-xl ring-1 ring-black/5 backdrop-blur md:hidden">
-      <div className="flex flex-col gap-3">
+    <div className="fixed inset-x-0 bottom-0 z-50 border-t border-black/10 bg-[var(--foreground)] text-white shadow-[0_-8px_20px_rgba(0,0,0,0.25)] md:hidden">
+      <div className="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-4">
         <div>
-          <p className="text-xs font-semibold uppercase tracking-wide text-[var(--cinnabar)]">
+          <p className="text-xs font-semibold uppercase tracking-wide text-white/70">
             {t('eyebrow')}
           </p>
-          <p className="text-base font-semibold text-[var(--foreground)]">{t('headline')}</p>
-          <p className="text-sm text-gray-600">{t('subheadline')}</p>
+          <p className="mt-1 flex items-center gap-2 text-sm font-semibold">
+            <span aria-hidden>📅</span>
+            {t('barPrimary')}
+            <span className="text-white/40">|</span>
+            <span aria-hidden>📱</span>
+            {t('barSecondary')}
+          </p>
+          <p className="mt-1 text-xs text-white/70">{t('subheadline')}</p>
         </div>
         <div className="flex flex-col gap-2 sm:flex-row">
           <Button href="#booking" size="md" className="w-full">
+            <span aria-hidden className="mr-2">
+              📅
+            </span>
             {t('primary')}
           </Button>
           <Button
@@ -28,6 +37,9 @@ export function StickyCTA() {
             target="_blank"
             rel="noreferrer"
           >
+            <span aria-hidden className="mr-2">
+              📱
+            </span>
             {t('secondary')}
           </Button>
         </div>

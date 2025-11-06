@@ -200,10 +200,11 @@
   },
   "stickyCta": {
     "eyebrow": "Start vandaag",
-    "headline": "Gratis introcall",
     "subheadline": "Plan je 15-minuten gesprek of stuur direct een WhatsApp.",
-    "primary": "Plan intro",
-    "secondary": "Stuur WhatsApp"
+    "barPrimary": "Plan je gratis intro",
+    "barSecondary": "App ons direct",
+    "primary": "Plan gratis intro",
+    "secondary": "App ons direct"
   },
   "footer": {
     "tagline": "Gewone mensen, buitengewoon sterk.",
@@ -218,6 +219,17 @@
     "rights": "Alle rechten voorbehouden"
   },
   "nav": {
+    "brand": "CFL Kickstart",
+    "ariaLabel": "Hoofdnavigatie",
+    "links": {
+      "benefits": "Wat je krijgt",
+      "howItWorks": "Wat te verwachten",
+      "community": "Community",
+      "stories": "Ledenverhalen",
+      "faq": "FAQ"
+    },
+    "cta": "Plan gratis intro",
+    "ctaShort": "Plan intro",
     "switchToNL": "Nederlands",
     "switchToEN": "English"
   }
