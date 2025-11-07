@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-labelledby="title desc">
+  <title id="title">Lisa smiling</title>
+  <desc id="desc">Portrait illustration of Lisa sharing her experience</desc>
+  <rect width="320" height="240" rx="32" fill="#F7F3FF" />
+  <circle cx="160" cy="120" r="72" fill="#7B6D8D" opacity="0.85" />
+  <circle cx="160" cy="120" r="56" fill="#FFE6D9" />
+  <path d="M110 158c26 30 84 30 108 0" fill="#F7CB15" opacity="0.9" />
+  <path d="M132 92c14-18 52-18 64 0" stroke="#EF4C37" stroke-width="8" stroke-linecap="round" fill="none" />
+</svg>
