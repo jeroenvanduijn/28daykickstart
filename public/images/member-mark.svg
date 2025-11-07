@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-labelledby="title desc">
+  <title id="title">Mark lifting</title>
+  <desc id="desc">Portrait illustration of Mark during a lifting session</desc>
+  <rect width="320" height="240" rx="32" fill="#E8FBF9" />
+  <circle cx="160" cy="120" r="72" fill="#0CBABA" opacity="0.85" />
+  <circle cx="160" cy="120" r="56" fill="#FFE6D9" />
+  <path d="M108 152c28 34 84 34 104 0" fill="#EF4C37" opacity="0.8" />
+  <path d="M120 92h80" stroke="#7B6D8D" stroke-width="10" stroke-linecap="round" />
+</svg>

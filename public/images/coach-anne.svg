@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
+  <title id="title">Coach Anne portrait</title>
+  <desc id="desc">Illustration of Coach Anne with clipboard</desc>
+  <rect width="320" height="320" rx="36" fill="#EAF7FF" />
+  <circle cx="160" cy="140" r="88" fill="#0CBABA" opacity="0.8" />
+  <circle cx="160" cy="140" r="64" fill="#FFE6D9" />
+  <rect x="120" y="220" width="80" height="70" rx="24" fill="#7B6D8D" />
+  <rect x="196" y="220" width="54" height="70" rx="16" fill="#EF4C37" />
+  <path d="M116 188c28 36 96 36 124 0" fill="#F7CB15" opacity="0.85" />
+  <path d="M130 120c12-20 52-20 64 0" stroke="#7B6D8D" stroke-width="10" stroke-linecap="round" fill="none" />
+  <rect x="212" y="236" width="28" height="40" rx="8" fill="#FCE8C1" />
+</svg>

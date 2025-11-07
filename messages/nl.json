@@ -1,10 +1,21 @@
 {
+  "metadata": {
+    "title": "CrossFit Leiden Kickstart – 28 dagen fitter voor drukke ouders en professionals",
+    "description": "Plan een gratis No-Sweat Intro bij CrossFit Leiden en volg onze 28-daagse Kickstart voor drukbezette ouders en professionals. Warme community, deskundige coaching, nul verplichtingen."
+  },
   "hero": {
-    "headline": "28 Dagen Kickstart voor Drukke Schema's",
+    "headline": "28-daagse Kickstart voor drukke schema's",
     "subheadline": "Geef je fitness een boost in 28 dagen – geen ervaring nodig, geen druk. Alle niveaus welkom.",
     "tagline": "Gewone mensen, buitengewoon sterk",
-    "cta": "Plan Gratis Intro",
-    "microCopy": "Geen verplichtingen. 15 minuten. Geen workout."
+    "cta": "Plan je Gratis Intro",
+    "watchStories": "Bekijk member stories",
+    "microCopy": "Geen verplichtingen. 15 minuten. Geen workout.",
+    "ratingLabel": "Beoordeeld met 4,9 door onze leden",
+    "affiliateBadge": "CrossFit Affiliate sinds 2012",
+    "heroImageAlt": "Coach van CrossFit Leiden verwelkomt een nieuw lid",
+    "coachAlt": "Coach Anne lachend met clipboard",
+    "coachName": "Coach Anne",
+    "coachRole": "Head Coach & Community Lead"
   },
   "benefits": {
     "heading": "Wat Je Krijgt",
@@ -18,7 +29,7 @@
     },
     "flexible": {
       "title": "Flexibele Planning",
-      "description": "Meerdere lestijden en een korte 45-minuten format – gemaakt voor ouders en professionals onderweg."
+      "description": "Meerdere lestijden en een compact programma van 45 minuten – gemaakt voor ouders en drukbezette professionals."
     },
     "habits": {
       "title": "Gewoontes die Blijven",
@@ -32,43 +43,72 @@
   "howItWorks": {
     "heading": "Wat Te Verwachten",
     "step1": {
-      "title": "Vriendelijk Intro Gesprek",
-      "description": "Begin je fitnessverhaal met een vriendelijk gesprek en een eenvoudige check-in om te zien waar je staat. Gratis 15-20 minuten één-op-één gesprek – geen workout, gewoon kennismaken met je doelen."
+      "title": "Vriendelijk kennismakingsgesprek",
+      "description": "Begin je fitnessverhaal met een warm kennismakingsgesprek en een korte check-in om te zien waar je staat. Een gratis één-op-één gesprek van 15-20 minuten – geen workout, alleen kennismaken met je doelen."
     },
     "step2": {
       "title": "28-Dagen Kickstart Programma",
-      "description": "Vier weken begeleide training (ongeveer 3 sessies per week) plus voedingstips en verantwoordelijkheidscontroles. Je krijgt 12 kleine groepstrainingen, een basislijn fitheid-beoordeling en doelbespreking."
+      "description": "Vier weken begeleide training (ongeveer 3 sessies per week), plus voedingstips en check-ins voor accountability. Je krijgt 12 kleinschalige groepstrainingen, een fitheidstest als nulmeting en een doelgesprek."
     },
     "step3": {
-      "title": "Jouw Doorlopende Reis",
-      "description": "Na 28 dagen heb je momentum! Afgestudeerden van de Kickstart kunnen naadloos doorgaan naar ons reguliere lidmaatschap, gewapend met nieuw vertrouwen en gewoontes."
+      "title": "Jouw vervolg",
+      "description": "Na 28 dagen heb je momentum! Deelnemers aan de Kickstart kunnen naadloos doorgaan met ons reguliere lidmaatschap, gewapend met nieuw vertrouwen en duurzame gewoontes."
     }
   },
   "testimonials": {
     "heading": "Wat Onze Leden Zeggen",
+    "intro": "Echte mensen, echte resultaten – ontdek hoe drukke ouders en professionals vaart maakten met de 28-daagse Kickstart.",
     "testimonial1": {
       "quote": "Ik was nerveus en niet in vorm, maar de coaches waren zo gastvrij. Na 28 dagen voelde ik me sterker en zelfverzekerder – en het paste gemakkelijk rond mijn werk en de planning van de kinderen!",
       "name": "Sarah",
-      "role": "Moeder van twee"
+      "role": "Moeder van twee",
+      "imageAlt": "Sarah die na de les lacht"
     },
     "testimonial2": {
       "quote": "Ik heb nu meer energie voor mijn kinderen dan ooit tevoren, dankzij het programma van CrossFit Leiden. De gemeenschap maakt het verschil.",
       "name": "Mark",
-      "role": "Drukke executive"
+      "role": "Drukke professional",
+      "imageAlt": "Mark naast een halter"
     },
     "testimonial3": {
       "quote": "Ik was aarzelend bij het aanmelden, maar na mijn eerste les voelde ik me op mijn gemak. Workouts zijn geschikt voor alle verschillende niveaus – dus maak je geen zorgen!",
       "name": "Lisa",
-      "role": "Ouder van drie"
-    }
+      "role": "Ouder van drie",
+      "imageAlt": "Lisa die haar verhaal deelt"
+    },
+    "socialProof": "Vertrouwd door meer dan 150 bewoners uit de buurt",
+    "averageRatingLabel": "Gemiddelde beoordeling: 4,9"
   },
   "cta": {
     "ready": "Klaar om te beginnen?",
     "bookNow": "Boek Nu Je Gratis Intro",
-    "noPressure": "Geen betaling of workout vereist – gewoon een vriendelijk gesprek!"
+    "noPressure": "Geen betaling of workout vereist – gewoon een vriendelijk gesprek!",
+    "location": "Leiden | Rooseveltstraat 7",
+    "guarantee": "Altijd kosteloos annuleren",
+    "successMessage": "Bedankt! We nemen binnen 24 uur contact met je op om je gratis intro te plannen.",
+    "promise": "Binnen 24 uur reactie. Nooit spam.",
+    "whatsAppCta": "App ons direct",
+    "trustPoints": {
+      "first": "Gratis, vrijblijvende kennismaking",
+      "second": "Plan op maat voor jouw doelen",
+      "third": "Eerste bezoek is alleen een relaxed gesprek"
+    },
+    "form": {
+      "nameLabel": "Volledige naam *",
+      "namePlaceholder": "Je volledige naam",
+      "emailLabel": "E-mail *",
+      "emailPlaceholder": "jij@email.com",
+      "phoneLabel": "Telefoon *",
+      "phonePlaceholder": "+31 6 12345678",
+      "messageLabel": "Wil je nog iets delen? (Optioneel)",
+      "messagePlaceholder": "Vertel ons over je doelen, zorgen of vragen...",
+      "submitting": "Versturen...",
+      "privacy": "We spammen je nooit en delen je gegevens niet. Privacy staat bij ons voorop."
+    }
   },
   "faq": {
     "heading": "Veelgestelde Vragen",
+    "subheading": "Alles wat je wilt weten om met de 28-daagse Kickstart van CrossFit Leiden te beginnen.",
     "q1": {
       "question": "Wat is een No-Sweat Intro?",
       "answer": "Een gratis 15-minuten gesprek – geen workout, gewoon praten. Kom in werkkleding als je wilt! We bespreken je doelen en beantwoorden alle vragen."
@@ -84,14 +124,112 @@
     "q4": {
       "question": "Wat gebeurt er na de 28 dagen?",
       "answer": "Je kunt doorgaan met ons reguliere lidmaatschap of een ander programma. We helpen je het beste pad vooruit te vinden op basis van je doelen en vooruitgang."
+    },
+    "supportTitle": "Nog vragen?",
+    "supportCta": "Plan een gratis intro voor alle antwoorden"
+  },
+  "community": {
+    "eyebrow": "Warm & echt",
+    "heading": "Hier hoor jij thuis",
+    "subheading": "Reken op glimlachen, high-fives en echte mensen die elke stap met je meevieren.",
+    "imageAlt": "CrossFit Leiden leden die na de workout vieren",
+    "stat": {
+      "title": "150+ leden",
+      "subtitle": "De meest gastvrije community van Leiden"
+    },
+    "list": {
+      "icon": "✓",
+      "welcome": {
+        "title": "Warm welkom",
+        "description": "We ontvangen je bij naam en laten de box zien zodat je je vanaf minuut één op je gemak voelt."
+      },
+      "support": {
+        "title": "Steun die goed voelt",
+        "description": "Coaches en leden checken bij je in – niet om te pushen, maar om aan te moedigen en successen te vieren."
+      },
+      "celebration": {
+        "title": "Communitymomenten",
+        "description": "Vrijdagkoffie, member spotlights en events maken het makkelijk om ook buiten de lessen te verbinden."
+      }
     }
   },
+  "memberStories": {
+    "eyebrow": "Member stories",
+    "heading": "Bekijk hoe anderen starten",
+    "subheading": "Drie gewone leden vertellen in 45 seconden hoe de eerste 28 dagen écht voelden.",
+    "watchStory": "Bekijk video",
+    "sarah": {
+      "tag": "Ouder",
+      "title": "Sarah vond haar energie",
+      "description": "\"Ik dacht dat ik geen tijd had, maar de structuur hield me op koers – en mijn kids vinden het geweldig dat ik weer mee kan spelen.\"",
+      "imageAlt": "Sarah die na de les lacht"
+    },
+    "mark": {
+      "tag": "Drukke professional",
+      "title": "Mark werd consistent",
+      "description": "\"De check-ins hielden me eerlijk en ik hield het eindelijk langer vol dan een week.\"",
+      "imageAlt": "Mark tijdens een liftsessie"
+    },
+    "lisa": {
+      "tag": "Nieuw bij CrossFit",
+      "title": "Lisa kreeg vertrouwen",
+      "description": "\"Dankzij alle schaalopties voelde ik me nooit achterblijven – nu kijk ik juist uit naar de lessen.\"",
+      "imageAlt": "Lisa die haar verhaal deelt"
+    }
+  },
+  "trust": {
+    "eyebrow": "Vertrouwde expertise",
+    "heading": "Begeleid door gecertificeerde coaches",
+    "subheading": "Wij combineren topcoaching, bewezen programming en een warme community zodat jij veilig resultaat boekt.",
+    "coachAlt": "Coach Anne portret",
+    "coachName": "Coach Anne",
+    "coachRole": "Head Coach & Community Lead",
+    "coachQuote": "\"We ontmoeten je waar je nu staat – succes bereik je samen.\"",
+    "affiliate": {
+      "title": "CrossFit Affiliate",
+      "description": "Officiële CrossFit Affiliate sinds 2012 met talloze transformaties."
+    },
+    "community": {
+      "title": "150+ actieve leden",
+      "description": "Vriendschappen, accountability en events die sporten leuk maken."
+    },
+    "coaches": {
+      "title": "6 gecertificeerde coaches",
+      "description": "CrossFit Level 1 & 2 plus voedingsspecialisten die klaarstaan voor jou."
+    }
+  },
+  "stickyCta": {
+    "eyebrow": "Start vandaag",
+    "subheadline": "Plan je 15-minuten gesprek of stuur direct een WhatsApp.",
+    "barPrimary": "Plan je gratis intro",
+    "barSecondary": "App ons direct",
+    "primary": "Plan gratis intro",
+    "secondary": "App ons direct"
+  },
   "footer": {
-    "address": "CrossFit Leiden, Leiden, Nederland",
+    "tagline": "Gewone mensen, buitengewoon sterk.",
+    "reviewHighlight": "Beoordeeld met 4,9 ★ op Google Reviews",
+    "contactHeading": "Contact",
+    "address": "CrossFit Leiden · Rooseveltstraat 7 · Leiden",
+    "phone": "+31 6 1234 5678",
+    "chamberInfo": "KvK 27308666 · BTW NL8194.66.893.B01",
+    "languageHeading": "Taal",
     "privacy": "Privacybeleid",
-    "contact": "Neem Contact Op"
+    "contact": "Neem contact op",
+    "rights": "Alle rechten voorbehouden"
   },
   "nav": {
+    "brand": "CFL Kickstart",
+    "ariaLabel": "Hoofdnavigatie",
+    "links": {
+      "benefits": "Wat je krijgt",
+      "howItWorks": "Wat te verwachten",
+      "community": "Community",
+      "stories": "Ledenverhalen",
+      "faq": "FAQ"
+    },
+    "cta": "Plan gratis intro",
+    "ctaShort": "Plan intro",
     "switchToNL": "Nederlands",
     "switchToEN": "English"
   }

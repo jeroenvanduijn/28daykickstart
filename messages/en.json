@@ -1,10 +1,21 @@
 {
+  "metadata": {
+    "title": "CrossFit Leiden Kickstart – 28 days fitter for busy parents and professionals",
+    "description": "Start with a free No-Sweat Intro at CrossFit Leiden and complete our 28-Day Kickstart designed for busy parents and professionals. Warm community, expert coaching, zero pressure."
+  },
   "hero": {
     "headline": "28-Day Kickstart for Busy Schedules",
     "subheadline": "Jumpstart your fitness in 28 days – no experience needed, no pressure. All levels welcome.",
     "tagline": "Everyday people, exceptionally strong",
-    "cta": "Book Free Intro",
-    "microCopy": "No obligations. 15 minutes. No workout."
+    "cta": "Book a Free Intro",
+    "watchStories": "Watch member stories",
+    "microCopy": "No obligations. 15 minutes. No workout.",
+    "ratingLabel": "Rated 4.9 by our members",
+    "affiliateBadge": "CrossFit Affiliate since 2012",
+    "heroImageAlt": "CrossFit Leiden coach welcoming a new member",
+    "coachAlt": "Coach Anne smiling with a clipboard",
+    "coachName": "Coach Anne",
+    "coachRole": "Head Coach & Community Lead"
   },
   "benefits": {
     "heading": "What You'll Get",
@@ -46,29 +57,58 @@
   },
   "testimonials": {
     "heading": "What Our Members Say",
+    "intro": "Real people, real wins – hear how the 28-Day Kickstart helped busy parents and professionals build momentum.",
     "testimonial1": {
       "quote": "I was nervous and out of shape, but the coaches were so welcoming. After 28 days I felt stronger and more confident – and it easily fit around my work and kids' schedule!",
       "name": "Sarah",
-      "role": "Mother of two"
+      "role": "Mother of two",
+      "imageAlt": "Sarah smiling after class"
     },
     "testimonial2": {
       "quote": "I have more energy for my kids now than ever before, thanks to CrossFit Leiden's program. The community makes all the difference.",
       "name": "Mark",
-      "role": "Busy executive"
+      "role": "Busy executive",
+      "imageAlt": "Mark standing next to a barbell"
     },
     "testimonial3": {
       "quote": "I was hesitant when signing up, but after my first class I felt comfortable. Workouts cater to all different levels – so don't worry!",
       "name": "Lisa",
-      "role": "Parent of three"
-    }
+      "role": "Parent of three",
+      "imageAlt": "Lisa laughing with friends"
+    },
+    "socialProof": "Trusted by more than 150 local residents",
+    "averageRatingLabel": "4.9 average rating"
   },
   "cta": {
     "ready": "Ready to get started?",
     "bookNow": "Book Your Free Intro Now",
-    "noPressure": "No payment or workout required – just a friendly chat!"
+    "noPressure": "No payment or workout required – just a friendly chat!",
+    "location": "Leiden | Rooseveltstraat 7",
+    "guarantee": "Cancel anytime – zero risk",
+    "successMessage": "Thank you! We'll contact you within 24 hours to schedule your free intro.",
+    "promise": "Reply within 24 hours. No spam, ever.",
+    "whatsAppCta": "WhatsApp us now",
+    "trustPoints": {
+      "first": "Free, no-obligation intro meeting",
+      "second": "Tailored plan for your goals",
+      "third": "First visit is a relaxed conversation"
+    },
+    "form": {
+      "nameLabel": "Full name *",
+      "namePlaceholder": "Your full name",
+      "emailLabel": "Email *",
+      "emailPlaceholder": "your@email.com",
+      "phoneLabel": "Phone *",
+      "phonePlaceholder": "+31 6 12345678",
+      "messageLabel": "Anything you'd like us to know? (Optional)",
+      "messagePlaceholder": "Tell us about your goals, concerns, or questions...",
+      "submitting": "Submitting...",
+      "privacy": "We'll never spam you or share your info. Your privacy is important to us."
+    }
   },
   "faq": {
     "heading": "Common Questions",
+    "subheading": "Everything you need to know about getting started with CrossFit Leiden's 28-Day Kickstart.",
     "q1": {
       "question": "What is a No-Sweat Intro?",
       "answer": "A free 15-minute chat – no workout, just talk. Come in work clothes if you want! We'll discuss your goals and answer any questions."
@@ -84,14 +124,112 @@
     "q4": {
       "question": "What happens after the 28 days?",
       "answer": "You can continue with our regular membership or another program. We'll help you find the best path forward based on your goals and progress."
+    },
+    "supportTitle": "Still have questions?",
+    "supportCta": "Book a free intro to learn more"
+  },
+  "community": {
+    "eyebrow": "Warm & real",
+    "heading": "You belong here",
+    "subheading": "Expect smiles, high-fives and real people celebrating progress together – every step of the way.",
+    "imageAlt": "CrossFit Leiden members celebrating after a workout",
+    "stat": {
+      "title": "150+ members",
+      "subtitle": "Leiden's most welcoming fitness community"
+    },
+    "list": {
+      "icon": "✓",
+      "welcome": {
+        "title": "Guided arrival",
+        "description": "We greet you by name and walk you through the space so you feel at ease from minute one."
+      },
+      "support": {
+        "title": "Accountability that feels good",
+        "description": "Coaches and members check in on you – not to push, but to encourage and celebrate small wins."
+      },
+      "celebration": {
+        "title": "Community rituals",
+        "description": "Friday coffee, member spotlights and event nights make it easy to connect outside of workouts."
+      }
     }
   },
+  "memberStories": {
+    "eyebrow": "Member stories",
+    "heading": "Watch how others started",
+    "subheading": "Three everyday members share what the first 28 days were really like – in 45 seconds each.",
+    "watchStory": "Play story",
+    "sarah": {
+      "tag": "Parent",
+      "title": "Sarah found her energy",
+      "description": "\"I didn't think I had time, but the structure kept me on track – and my kids love that I can play longer.\"",
+      "imageAlt": "Sarah smiling after class"
+    },
+    "mark": {
+      "tag": "Busy professional",
+      "title": "Mark built consistency",
+      "description": "\"The check-ins kept me honest and I finally stuck with a routine longer than a week.\"",
+      "imageAlt": "Mark during a lifting session"
+    },
+    "lisa": {
+      "tag": "New to CrossFit",
+      "title": "Lisa gained confidence",
+      "description": "\"Scaling options meant I never felt left behind – now I actually look forward to class.\"",
+      "imageAlt": "Lisa sharing her story"
+    }
+  },
+  "trust": {
+    "eyebrow": "Trusted expertise",
+    "heading": "Led by certified coaches",
+    "subheading": "We combine top-tier coaching, proven programming and a caring community to get you results safely.",
+    "coachAlt": "Coach Anne portrait",
+    "coachName": "Coach Anne",
+    "coachRole": "Head Coach & Community Lead",
+    "coachQuote": "\"We'll meet you exactly where you are – your success is a team effort.\"",
+    "affiliate": {
+      "title": "CrossFit Affiliate",
+      "description": "Registered CrossFit Affiliate since 2012 with a decade of transformation stories."
+    },
+    "community": {
+      "title": "150+ active members",
+      "description": "Lifelong friendships, accountability partners and events that make fitness fun."
+    },
+    "coaches": {
+      "title": "6 certified coaches",
+      "description": "Level 1 & 2 CrossFit certified staff plus nutrition specialists ready to guide you."
+    }
+  },
+  "stickyCta": {
+    "eyebrow": "Start today",
+    "subheadline": "Reserve your 15-minute chat or send us a quick WhatsApp message.",
+    "barPrimary": "Plan your free intro",
+    "barSecondary": "Message us on WhatsApp",
+    "primary": "Plan free intro",
+    "secondary": "Send WhatsApp"
+  },
   "footer": {
-    "address": "CrossFit Leiden, Leiden, Netherlands",
+    "tagline": "Everyday people, exceptionally strong.",
+    "reviewHighlight": "Rated 4.9 ★ on Google Reviews",
+    "contactHeading": "Contact",
+    "address": "CrossFit Leiden · Rooseveltstraat 7 · Leiden",
+    "phone": "+31 6 1234 5678",
+    "chamberInfo": "KvK 27308666 · BTW NL8194.66.893.B01",
+    "languageHeading": "Language",
     "privacy": "Privacy Policy",
-    "contact": "Contact Us"
+    "contact": "Contact Us",
+    "rights": "All rights reserved"
   },
   "nav": {
+    "brand": "CFL Kickstart",
+    "ariaLabel": "Main navigation",
+    "links": {
+      "benefits": "What you get",
+      "howItWorks": "What to expect",
+      "community": "Community",
+      "stories": "Member stories",
+      "faq": "FAQ"
+    },
+    "cta": "Plan free intro",
+    "ctaShort": "Plan intro",
     "switchToNL": "Nederlands",
     "switchToEN": "English"
   }

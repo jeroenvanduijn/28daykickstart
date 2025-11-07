@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">CrossFit community celebrating together</title>
+  <desc id="desc">Group of members smiling and giving high-fives after a workout</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8FBF9" />
+      <stop offset="100%" stop-color="#CDEFF1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)" rx="48" />
+  <g transform="translate(80 120)">
+    <rect x="0" y="360" width="640" height="40" rx="20" fill="#B9E4E8" />
+    <g fill="#0CBABA" opacity="0.2">
+      <circle cx="120" cy="180" r="90" />
+      <circle cx="300" cy="140" r="70" />
+      <circle cx="480" cy="180" r="100" />
+      <circle cx="360" cy="280" r="80" />
+    </g>
+    <g>
+      <g transform="translate(60 120)">
+        <rect x="-20" y="180" width="120" height="180" rx="48" fill="#7B6D8D" />
+        <circle cx="40" cy="100" r="64" fill="#FCE8C1" />
+        <path d="M-12 200c32 48 144 48 176 0" fill="#EF4C37" opacity="0.85" />
+        <path d="M36 60c20-32 60-32 80 0" stroke="#EF4C37" stroke-width="12" stroke-linecap="round" fill="none" />
+      </g>
+      <g transform="translate(220 60)">
+        <rect x="-20" y="220" width="120" height="200" rx="48" fill="#EF4C37" />
+        <circle cx="40" cy="120" r="70" fill="#FFE6D9" />
+        <path d="M-20 240c24 40 144 40 168 0" fill="#F7CB15" opacity="0.85" />
+        <path d="M10 70c12-36 76-36 88 0" stroke="#F7CB15" stroke-width="12" stroke-linecap="round" fill="none" />
+        <path d="M84 136l56-76" stroke="#0CBABA" stroke-width="20" stroke-linecap="round" />
+      </g>
+      <g transform="translate(420 80)">
+        <rect x="-20" y="200" width="140" height="220" rx="56" fill="#0CBABA" />
+        <circle cx="50" cy="120" r="76" fill="#FCE8C1" />
+        <path d="M-30 240c32 48 184 48 216 0" fill="#7B6D8D" opacity="0.85" />
+        <path d="M28 72c12-40 80-40 92 0" stroke="#EF4C37" stroke-width="12" stroke-linecap="round" fill="none" />
+        <path d="M100 150l60-80" stroke="#F7CB15" stroke-width="18" stroke-linecap="round" />
+      </g>
+    </g>
+  </g>
+</svg>
