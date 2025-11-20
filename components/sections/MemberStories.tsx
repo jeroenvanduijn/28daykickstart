@@ -23,7 +23,7 @@ export function MemberStories() {
               <div className="relative bg-gray-300 aspect-video flex items-center justify-center cursor-pointer group">
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors" />
                 <div className="relative w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-lg">
-                  <svg className="w-8 h-8 text-orange-500 ml-1" fill="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-8 h-8 text-[#E34234] ml-1" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M8 5v14l11-7z" />
                   </svg>
                 </div>

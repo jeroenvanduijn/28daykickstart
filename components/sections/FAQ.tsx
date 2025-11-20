@@ -40,7 +40,7 @@ export function FAQ() {
                   {t(`${key}.question`)}
                 </span>
                 <svg
-                  className={`w-5 h-5 text-orange-500 transform transition-transform flex-shrink-0 ${
+                  className={`w-5 h-5 text-[#E34234] transform transition-transform flex-shrink-0 ${
                     openIndex === index ? 'rotate-180' : ''
                   }`}
                   fill="none"
@@ -70,7 +70,7 @@ export function FAQ() {
           <p className="text-gray-700 mb-4 text-lg">Still have questions?</p>
           <a
             href="#booking"
-            className="inline-block px-8 py-4 bg-orange-500 text-white font-bold text-lg rounded-lg hover:bg-orange-600 active:bg-orange-700 transition-colors shadow-lg"
+            className="inline-block px-8 py-4 bg-[#E34234] text-white font-bold text-lg rounded-lg hover:bg-[#c23529] active:bg-[#a12e23] transition-colors shadow-lg"
           >
             Book a Free Intro to Learn More
           </a>

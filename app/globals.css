@@ -5,14 +5,15 @@
   --foreground: #000000;
 
   /* CrossFit Leiden Brand Colors */
-  --cinnabar: #EF4C37;
-  --orange: #f97316; /* Primary CTA - Tailwind orange-500 */
-  --orange-hover: #ea580c; /* Tailwind orange-600 */
-  --orange-active: #c2410c; /* Tailwind orange-700 */
-  --jonquil: #F7CB15;
-  --verdigris: #0CBABA;
-  --chinese-violet: #7B6D8D;
-  --chinese-violet-dark: #5a5167; /* Darker variant for better contrast */
+  --cinnabar: #E34234; /* Primary CTA - Cinnabar Red */
+  --cinnabar-hover: #c23529; /* Darker variant for hover */
+  --cinnabar-active: #a12e23; /* Even darker for active state */
+  --jonquil: #F4C430; /* Jonquil Yellow - highlights, accents */
+  --verdigris: #43B3AE; /* Verdigris Teal - small accents */
+  --violet: #6C4EB3; /* Violet Purple - optional subtle accents */
+  --dark-navy: #0B0E11; /* Titles */
+  --mid-grey: #33303A; /* Subtitles */
+  --light-grey: #F4F5F7; /* Background and sections */
 }
 
 @theme inline {
@@ -23,13 +24,13 @@
   --color-cinnabar: var(--cinnabar);
   --color-jonquil: var(--jonquil);
   --color-verdigris: var(--verdigris);
-  --color-chinese-violet: var(--chinese-violet);
+  --color-violet: var(--violet);
 
   /* Semantic Colors */
   --color-primary: var(--cinnabar);
   --color-secondary: var(--jonquil);
   --color-accent-1: var(--verdigris);
-  --color-accent-2: var(--chinese-violet);
+  --color-accent-2: var(--violet);
 
   /* Typography */
   --font-sans: ui-sans-serif, system-ui, sans-serif;

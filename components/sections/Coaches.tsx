@@ -21,7 +21,7 @@ export function Coaches() {
             <h3 className="text-3xl font-bold text-center mb-2">
               {t('max.name')}
             </h3>
-            <p className="text-xl text-orange-500 font-semibold text-center mb-6">
+            <p className="text-xl text-[#E34234] font-semibold text-center mb-6">
               {t('max.role')}
             </p>
             <p className="text-lg text-gray-700 leading-relaxed text-center">
@@ -39,7 +39,7 @@ export function Coaches() {
             <h3 className="text-3xl font-bold text-center mb-2">
               {t('annie.name')}
             </h3>
-            <p className="text-xl text-orange-500 font-semibold text-center mb-6">
+            <p className="text-xl text-[#E34234] font-semibold text-center mb-6">
               {t('annie.role')}
             </p>
             <p className="text-lg text-gray-700 leading-relaxed text-center">
@@ -51,19 +51,19 @@ export function Coaches() {
         {/* Stats */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 max-w-5xl mx-auto">
           <div className="text-center">
-            <p className="text-5xl font-bold text-orange-500 mb-2">2016</p>
+            <p className="text-5xl font-bold text-[#E34234] mb-2">2016</p>
             <p className="text-base text-gray-600">Sinds</p>
           </div>
           <div className="text-center">
-            <p className="text-5xl font-bold text-orange-500 mb-2">450+</p>
+            <p className="text-5xl font-bold text-[#E34234] mb-2">450+</p>
             <p className="text-base text-gray-600">actieve leden</p>
           </div>
           <div className="text-center">
-            <p className="text-5xl font-bold text-orange-500 mb-2">11</p>
+            <p className="text-5xl font-bold text-[#E34234] mb-2">11</p>
             <p className="text-base text-gray-600">gecertificeerde coaches</p>
           </div>
           <div className="text-center">
-            <p className="text-5xl font-bold text-orange-500 mb-2">5.0 ★</p>
+            <p className="text-5xl font-bold text-[#E34234] mb-2">5.0 ★</p>
             <p className="text-base text-gray-600">265+ Google Reviews</p>
           </div>
         </div>

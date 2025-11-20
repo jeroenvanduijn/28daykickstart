@@ -23,7 +23,7 @@ export function Header() {
             <LanguageSwitcher />
             <a
               href="#booking"
-              className="px-6 py-3 bg-orange-500 text-white font-bold rounded-lg hover:bg-orange-600 active:bg-orange-700 transition-colors shadow-md"
+              className="px-6 py-3 bg-[#E34234] text-white font-bold rounded-lg hover:bg-[#c23529] active:bg-[#a12e23] transition-colors shadow-md"
             >
               {t('cta')}
             </a>

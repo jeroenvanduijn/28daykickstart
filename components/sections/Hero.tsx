@@ -29,7 +29,7 @@ export function Hero() {
 
         <a
           href="#booking"
-          className="inline-block px-10 py-5 bg-orange-500 text-white font-bold text-xl rounded-lg hover:bg-orange-600 active:bg-orange-700 transition-colors shadow-2xl mb-4"
+          className="inline-block px-10 py-5 bg-[#E34234] text-white font-bold text-xl rounded-lg hover:bg-[#c23529] active:bg-[#a12e23] transition-colors shadow-2xl mb-4"
         >
           {t('cta')}
         </a>

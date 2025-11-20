@@ -23,7 +23,7 @@ export function Footer() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
           <a
             href="#booking"
-            className="inline-block px-8 py-4 bg-orange-500 text-white font-bold text-lg rounded-lg hover:bg-orange-600 active:bg-orange-700 transition-colors shadow-lg"
+            className="inline-block px-8 py-4 bg-[#E34234] text-white font-bold text-lg rounded-lg hover:bg-[#c23529] active:bg-[#a12e23] transition-colors shadow-lg"
           >
             {t('cta')}
           </a>

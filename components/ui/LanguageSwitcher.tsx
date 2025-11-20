@@ -25,7 +25,7 @@ export function LanguageSwitcher() {
         onClick={() => switchLocale('en')}
         className={`transition-colors ${
           locale === 'en'
-            ? 'text-orange-600 font-semibold underline'
+            ? 'text-[#43B3AE] font-semibold underline'
             : 'text-gray-500 hover:text-gray-700'
         }`}
         disabled={isPending}
@@ -38,7 +38,7 @@ export function LanguageSwitcher() {
         onClick={() => switchLocale('nl')}
         className={`transition-colors ${
           locale === 'nl'
-            ? 'text-orange-600 font-semibold underline'
+            ? 'text-[#43B3AE] font-semibold underline'
             : 'text-gray-500 hover:text-gray-700'
         }`}
         disabled={isPending}
