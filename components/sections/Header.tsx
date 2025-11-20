@@ -19,16 +19,14 @@ export function Header() {
           </div>
 
           {/* Right side: Language Switcher + CTA */}
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-6">
             <LanguageSwitcher />
-            <Button
-              variant="primary"
-              size="md"
+            <a
               href="#booking"
-              className="shadow-md hover:shadow-lg"
+              className="px-6 py-3 bg-orange-500 text-white font-bold rounded-lg hover:bg-orange-600 active:bg-orange-700 transition-colors shadow-md"
             >
               {t('cta')}
-            </Button>
+            </a>
           </div>
         </div>
       </div>

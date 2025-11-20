@@ -6,6 +6,9 @@
 
   /* CrossFit Leiden Brand Colors */
   --cinnabar: #EF4C37;
+  --orange: #f97316; /* Primary CTA - Tailwind orange-500 */
+  --orange-hover: #ea580c; /* Tailwind orange-600 */
+  --orange-active: #c2410c; /* Tailwind orange-700 */
   --jonquil: #F7CB15;
   --verdigris: #0CBABA;
   --chinese-violet: #7B6D8D;

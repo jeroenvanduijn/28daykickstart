@@ -19,9 +19,9 @@ export function FAQ() {
   };
 
   return (
-    <section className="py-16 sm:py-20 lg:py-24 bg-gray-50">
+    <section className="py-20 sm:py-28 bg-gray-50">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl sm:text-4xl font-bold text-center text-[--foreground] mb-12">
+        <h2 className="text-4xl sm:text-5xl font-bold text-center mb-16">
           {t('heading')}
         </h2>
 
@@ -36,11 +36,11 @@ export function FAQ() {
                 onClick={() => toggleFAQ(index)}
                 className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-50 transition-colors"
               >
-                <span className="font-bold text-[--foreground] pr-4">
+                <span className="font-bold text-gray-900 pr-4">
                   {t(`${key}.question`)}
                 </span>
                 <svg
-                  className={`w-5 h-5 text-[--cinnabar] transform transition-transform flex-shrink-0 ${
+                  className={`w-5 h-5 text-orange-500 transform transition-transform flex-shrink-0 ${
                     openIndex === index ? 'rotate-180' : ''
                   }`}
                   fill="none"
@@ -66,11 +66,11 @@ export function FAQ() {
         </div>
 
         {/* Additional CTA after FAQ */}
-        <div className="mt-12 text-center">
-          <p className="text-gray-700 mb-4">Still have questions?</p>
+        <div className="mt-16 text-center">
+          <p className="text-gray-700 mb-4 text-lg">Still have questions?</p>
           <a
             href="#booking"
-            className="inline-block px-6 py-3 bg-white border-2 border-[--foreground] text-[--foreground] font-bold rounded-lg hover:bg-gray-50 transition-colors"
+            className="inline-block px-8 py-4 bg-orange-500 text-white font-bold text-lg rounded-lg hover:bg-orange-600 active:bg-orange-700 transition-colors shadow-lg"
           >
             Book a Free Intro to Learn More
           </a>
