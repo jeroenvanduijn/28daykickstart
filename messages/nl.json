@@ -1,102 +1,145 @@
 {
   "hero": {
-    "headline": "28 Dagen Kickstart voor Drukke Schema's",
-    "subheadline": "Geef je fitness een boost in 28 dagen – geen ervaring nodig, geen druk. Alle niveaus welkom.",
-    "tagline": "Gewone mensen, buitengewoon sterk",
-    "taglinePrefix": "Gewone mensen, ",
-    "taglineEmphasis": "BUITENGEWOON STERK",
+    "taglinePrefix": "Gewone mensen,",
+    "taglineEmphasis": "buitengewoon sterk.",
+    "headline": "De 28-daagse Kickstart voor drukke ouders en professionals.",
+    "subheadline": "Krijg meer energie, meer structuur en meer vertrouwen – ook als je nog nooit CrossFit hebt gedaan.",
     "cta": "Plan Gratis Intro",
-    "microCopy": "Geen verplichtingen. 15 minuten. Geen workout.",
-    "allLevelsWelcome": "✓ Alle niveaus welkom",
-    "rating": "4.9 van onze leden"
+    "trustLine": "Geen verplichtingen. Geen workout. 15 minuten. Alleen kennismaken.",
+    "reviews": "265+ Google Reviews — 5.0 ★"
   },
   "benefits": {
-    "heading": "Wat Je Krijgt",
-    "realResults": {
-      "title": "Echte Resultaten, Snel",
-      "description": "Voel je fitter en energieker in 28 dagen met ons bewezen programma. Boost je kracht, energie en zelfvertrouwen."
+    "heading": "Wat je krijgt",
+    "item1": {
+      "title": "Snelle resultaten",
+      "description": "Voel je fitter en energieker in 28 dagen met simpele, haalbare training."
     },
-    "coaching": {
-      "title": "Persoonlijke Coaching & Ondersteuning",
-      "description": "Je krijgt begeleiding van vriendelijke coaches die jouw drukke leven begrijpen en je gemotiveerd en verantwoordelijk houden."
+    "item2": {
+      "title": "Persoonlijke coaching",
+      "description": "Onze coaches kennen je bij naam en helpen je veilig en met plezier starten."
     },
-    "flexible": {
-      "title": "Flexibele Planning",
-      "description": "Meerdere lestijden en een korte 45-minuten format – gemaakt voor ouders en professionals onderweg."
+    "item3": {
+      "title": "Flexibele planning",
+      "description": "Drie trainingen per week van 60 minuten. Meerdere tijden, altijd in te passen."
     },
-    "habits": {
-      "title": "Gewoontes die Blijven",
-      "description": "Leer de juiste techniek, voedingsbasics en trainingsgewoontes die je vol kunt houden na de 28 dagen."
+    "item4": {
+      "title": "Techniek & voeding basics",
+      "description": "Je leert bewegen met goede techniek én krijgt praktische voedingsbegeleiding."
     },
-    "community": {
-      "title": "Gemeenschap & Plezier",
-      "description": "Sluit je aan bij een gastvrije, niet-oordelende gemeenschap. Sporten wordt leuk wanneer je ondersteund wordt door mensen zoals jij."
+    "item5": {
+      "title": "Community & plezier",
+      "description": "Een warme groep mensen die je steunt, motiveert en laat lachen."
     }
   },
   "howItWorks": {
-    "heading": "Wat Te Verwachten",
+    "heading": "Wat te verwachten",
     "step1": {
-      "title": "Vriendelijk Intro Gesprek",
-      "description": "Begin je fitnessverhaal met een vriendelijk gesprek en een eenvoudige check-in om te zien waar je staat. Gratis 15-20 minuten één-op-één gesprek – geen workout, gewoon kennismaken met je doelen."
+      "title": "Vriendelijk kennismakingsgesprek",
+      "description": "Een gratis gesprek van 15-20 minuten. Geen workout. We leren je doelen kennen en beantwoorden vragen."
     },
     "step2": {
-      "title": "28-Dagen Kickstart Programma",
-      "description": "Vier weken begeleide training (ongeveer 3 sessies per week) plus voedingstips en verantwoordelijkheidscontroles. Je krijgt 12 kleine groepstrainingen, een basislijn fitheid-beoordeling en doelbespreking."
+      "title": "28-daagse Kickstart",
+      "description": "Drie trainingen per week van 60 minuten, plus voedingsrichtlijnen en check-ins. Je leert veilig starten, bewegingen opschalen en gezonde gewoontes opbouwen."
     },
     "step3": {
-      "title": "Jouw Doorlopende Reis",
-      "description": "Na 28 dagen heb je momentum! Afgestudeerden van de Kickstart kunnen naadloos doorgaan naar ons reguliere lidmaatschap, gewapend met nieuw vertrouwen en gewoontes."
+      "title": "Jouw vervolg",
+      "description": "Na 28 dagen heb je momentum. Je kunt verder met:",
+      "options": [
+        "reguliere groepslessen",
+        "small group training",
+        "1-op-1 coaching (PT of Nutrition)"
+      ],
+      "footer": "We kijken samen wat het beste past."
     }
   },
-  "testimonials": {
-    "heading": "Wat Onze Leden Zeggen",
-    "testimonial1": {
-      "quote": "Ik was nerveus en niet in vorm, maar de coaches waren zo gastvrij. Na 28 dagen voelde ik me sterker en zelfverzekerder – en het paste gemakkelijk rond mijn werk en de planning van de kinderen!",
-      "name": "Sarah",
-      "role": "Moeder van twee"
+  "coaches": {
+    "heading": "Begeleid door gecertificeerde coaches",
+    "max": {
+      "name": "Coach Max",
+      "role": "Kickstart Lead Coach",
+      "description": "Energiek, duidelijk en altijd positief. Helpt beginners veilig en met vertrouwen starten."
     },
-    "testimonial2": {
-      "quote": "Ik heb nu meer energie voor mijn kinderen dan ooit tevoren, dankzij het programma van CrossFit Leiden. De gemeenschap maakt het verschil.",
-      "name": "Mark",
-      "role": "Drukke executive"
+    "annie": {
+      "name": "Coach Annie",
+      "role": "Nutrition Coach",
+      "description": "Rustig, warm en praktisch. Geeft duidelijke voedingsbegeleiding die past bij jouw leven."
     },
-    "testimonial3": {
-      "quote": "Ik was aarzelend bij het aanmelden, maar na mijn eerste les voelde ik me op mijn gemak. Workouts zijn geschikt voor alle verschillende niveaus – dus maak je geen zorgen!",
-      "name": "Lisa",
-      "role": "Ouder van drie"
+    "stats": {
+      "since": "Sinds 2016",
+      "members": "450+ actieve leden",
+      "coaches": "11 gecertificeerde coaches",
+      "reviews": "265+ Google Reviews (5.0 ★)"
     }
+  },
+  "community": {
+    "heading": "De meest gastvrije community van Leiden",
+    "subheading": "Hier hoor jij thuis.",
+    "bullet1": {
+      "title": "Warm welkom",
+      "description": "we kennen je naam vanaf dag één"
+    },
+    "bullet2": {
+      "title": "Steun die goed voelt",
+      "description": "coaches en leden moedigen je echt aan"
+    },
+    "bullet3": {
+      "title": "Communitymomenten",
+      "description": "koffie, events, high-fives, gezelligheid"
+    }
+  },
+  "memberStories": {
+    "heading": "Bekijk hoe anderen starten",
+    "story1": {
+      "name": "Sarah",
+      "role": "Moeder van twee",
+      "summary": "Van nerveus naar zelfverzekerd in 28 dagen"
+    },
+    "story2": {
+      "name": "Mark",
+      "role": "Drukke executive",
+      "summary": "Meer energie voor mijn gezin door de Kickstart"
+    },
+    "story3": {
+      "name": "Lisa",
+      "role": "Ouder van drie",
+      "summary": "Van aarzelend naar op mijn gemak in één les"
+    }
+  },
+  "reviews": {
+    "heading": "Wat onze leden zeggen"
   },
   "cta": {
-    "ready": "Klaar om te beginnen?",
-    "bookNow": "Boek Nu Je Gratis Intro",
-    "noPressure": "Geen betaling of workout vereist – gewoon een vriendelijk gesprek!"
+    "heading": "Klaar om te beginnen?",
+    "subtext": "Geen betaling of workout vereist – alleen een vriendelijk gesprek.",
+    "button": "Plan Gratis Intro"
   },
   "faq": {
-    "heading": "Veelgestelde Vragen",
+    "heading": "Veelgestelde vragen",
     "q1": {
       "question": "Wat is een No-Sweat Intro?",
-      "answer": "Een gratis 15-minuten gesprek – geen workout, gewoon praten. Kom in werkkleding als je wilt! We bespreken je doelen en beantwoorden alle vragen."
+      "answer": "Een gratis kennismakingsgesprek van 15 minuten. Geen workout, geen druk."
     },
     "q2": {
-      "question": "Ik ben echt niet in vorm / boven de 50 / een beginner – kan ik dit doen?",
-      "answer": "Ja! We zijn gespecialiseerd in het helpen van beginners van alle leeftijden. Geen oordeel, alleen ondersteuning. Elke workout is aanpasbaar aan jouw fitnessniveau."
+      "question": "Ik ben beginner / boven de 50 / niet fit — kan ik dit doen?",
+      "answer": "Ja! Alles is schaalbaar en we helpen je stap voor stap."
     },
     "q3": {
-      "question": "Hoeveel tijd kost dit per week?",
-      "answer": "We raden 3 sessies per week aan, elk ongeveer 45 minuten. Dat is iets meer dan 2 uur per week – ontworpen om in drukke schema's te passen."
+      "question": "Hoeveel tijd kost het per week?",
+      "answer": "Drie sessies van 60 minuten per week."
     },
     "q4": {
       "question": "Wat gebeurt er na de 28 dagen?",
-      "answer": "Je kunt doorgaan met ons reguliere lidmaatschap of een ander programma. We helpen je het beste pad vooruit te vinden op basis van je doelen en vooruitgang."
+      "answer": "Je kunt doorstromen naar reguliere lessen, small groups of 1-op-1. We helpen je het beste pad kiezen."
     }
   },
   "footer": {
-    "address": "CrossFit Leiden, Leiden, Nederland",
-    "privacy": "Privacybeleid",
-    "contact": "Neem Contact Op"
-  },
-  "nav": {
-    "switchToNL": "Nederlands",
-    "switchToEN": "English"
+    "name": "CrossFit Leiden",
+    "address": "Rooseveltstraat 7, Leiden",
+    "members": "450+ leden",
+    "since": "Sinds 2016",
+    "rating": "★★★★★ 5.0",
+    "reviewCount": "265+ reviews",
+    "cta": "Plan Gratis Intro",
+    "whatsapp": "App ons direct"
   }
 }

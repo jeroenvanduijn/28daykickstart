@@ -1,102 +1,145 @@
 {
   "hero": {
-    "headline": "28-Day Kickstart for Busy Schedules",
-    "subheadline": "Jumpstart your fitness in 28 days – no experience needed, no pressure. All levels welcome.",
-    "tagline": "Everyday people, exceptionally strong",
-    "taglinePrefix": "Everyday people, ",
-    "taglineEmphasis": "EXCEPTIONALLY STRONG",
+    "taglinePrefix": "Everyday people,",
+    "taglineEmphasis": "exceptionally strong.",
+    "headline": "The 28-Day Kickstart for busy parents and professionals.",
+    "subheadline": "Get more energy, more structure, and more confidence – even if you've never done CrossFit before.",
     "cta": "Book Free Intro",
-    "microCopy": "No obligations. 15 minutes. No workout.",
-    "allLevelsWelcome": "✓ All levels welcome",
-    "rating": "4.9 from our members"
+    "trustLine": "No obligations. No workout. 15 minutes. Just meet and chat.",
+    "reviews": "265+ Google Reviews — 5.0 ★"
   },
   "benefits": {
-    "heading": "What You'll Get",
-    "realResults": {
-      "title": "See Real Results, Fast",
-      "description": "Feel fitter and more energetic in 28 days with our proven program. Boost your strength, energy, and confidence."
+    "heading": "What you'll get",
+    "item1": {
+      "title": "Quick results",
+      "description": "Feel fitter and more energetic in 28 days with simple, achievable training."
     },
-    "coaching": {
-      "title": "Personal Coaching & Support",
-      "description": "You get guidance from friendly coaches who understand your busy life and keep you motivated and accountable."
+    "item2": {
+      "title": "Personal coaching",
+      "description": "Our coaches know you by name and help you start safely and with joy."
     },
-    "flexible": {
-      "title": "Flexible Schedule",
-      "description": "Multiple class times and a quick 45-minute format – made for parents and professionals on the go."
+    "item3": {
+      "title": "Flexible scheduling",
+      "description": "Three 60-minute sessions per week. Multiple times, always fits in."
     },
-    "habits": {
-      "title": "Habits that Stick",
-      "description": "Learn proper form, nutrition basics, and workout habits you can sustain beyond the 28 days."
+    "item4": {
+      "title": "Technique & nutrition basics",
+      "description": "You learn to move with good technique and get practical nutrition guidance."
     },
-    "community": {
-      "title": "Community & Fun",
-      "description": "Join a welcoming, non-judgmental community. Exercise becomes enjoyable when you're supported by others like you."
+    "item5": {
+      "title": "Community & fun",
+      "description": "A warm group of people who support, motivate, and make you laugh."
     }
   },
   "howItWorks": {
-    "heading": "What to Expect",
+    "heading": "What to expect",
     "step1": {
-      "title": "Friendly Intro Chat",
-      "description": "Start your fitness story with a friendly chat and an easy check-in to see where you stand. Free 15-20 minute one-on-one conversation – no workout, just us getting to know your goals."
+      "title": "Friendly intro chat",
+      "description": "A free 15-20 minute conversation. No workout. We get to know your goals and answer questions."
     },
     "step2": {
-      "title": "28-Day Kickstart Program",
-      "description": "Four weeks of guided training (approx. 3 sessions per week) plus nutrition tips and accountability check-ins. You'll get 12 small-group training sessions, a baseline fitness assessment, and goal review."
+      "title": "28-Day Kickstart",
+      "description": "Three 60-minute sessions per week, plus nutrition guidelines and check-ins. You learn to start safely, scale movements, and build healthy habits."
     },
     "step3": {
-      "title": "Your Ongoing Journey",
-      "description": "After 28 days, you'll have momentum! Graduates of the Kickstart can seamlessly continue into our regular membership, armed with new confidence and habits."
+      "title": "Your next step",
+      "description": "After 28 days, you've got momentum. You can continue with:",
+      "options": [
+        "regular group classes",
+        "small group training",
+        "1-on-1 coaching (PT or Nutrition)"
+      ],
+      "footer": "We'll look together at what fits best."
     }
   },
-  "testimonials": {
-    "heading": "What Our Members Say",
-    "testimonial1": {
-      "quote": "I was nervous and out of shape, but the coaches were so welcoming. After 28 days I felt stronger and more confident – and it easily fit around my work and kids' schedule!",
-      "name": "Sarah",
-      "role": "Mother of two"
+  "coaches": {
+    "heading": "Guided by certified coaches",
+    "max": {
+      "name": "Coach Max",
+      "role": "Kickstart Lead Coach",
+      "description": "Energetic, clear, and always positive. Helps beginners start safely and with confidence."
     },
-    "testimonial2": {
-      "quote": "I have more energy for my kids now than ever before, thanks to CrossFit Leiden's program. The community makes all the difference.",
-      "name": "Mark",
-      "role": "Busy executive"
+    "annie": {
+      "name": "Coach Annie",
+      "role": "Nutrition Coach",
+      "description": "Calm, warm, and practical. Provides clear nutrition guidance that fits your life."
     },
-    "testimonial3": {
-      "quote": "I was hesitant when signing up, but after my first class I felt comfortable. Workouts cater to all different levels – so don't worry!",
-      "name": "Lisa",
-      "role": "Parent of three"
+    "stats": {
+      "since": "Since 2016",
+      "members": "450+ active members",
+      "coaches": "11 certified coaches",
+      "reviews": "265+ Google Reviews (5.0 ★)"
     }
+  },
+  "community": {
+    "heading": "Leiden's most welcoming community",
+    "subheading": "You belong here.",
+    "bullet1": {
+      "title": "Warm welcome",
+      "description": "we know your name from day one"
+    },
+    "bullet2": {
+      "title": "Support that feels good",
+      "description": "coaches and members truly encourage you"
+    },
+    "bullet3": {
+      "title": "Community moments",
+      "description": "coffee, events, high-fives, fun times"
+    }
+  },
+  "memberStories": {
+    "heading": "See how others get started",
+    "story1": {
+      "name": "Sarah",
+      "role": "Mother of two",
+      "summary": "From nervous to confident in 28 days"
+    },
+    "story2": {
+      "name": "Mark",
+      "role": "Busy executive",
+      "summary": "More energy for my family through the Kickstart"
+    },
+    "story3": {
+      "name": "Lisa",
+      "role": "Parent of three",
+      "summary": "From hesitant to comfortable in one class"
+    }
+  },
+  "reviews": {
+    "heading": "What our members say"
   },
   "cta": {
-    "ready": "Ready to get started?",
-    "bookNow": "Book Your Free Intro Now",
-    "noPressure": "No payment or workout required – just a friendly chat!"
+    "heading": "Ready to get started?",
+    "subtext": "No payment or workout required – just a friendly chat.",
+    "button": "Book Free Intro"
   },
   "faq": {
-    "heading": "Common Questions",
+    "heading": "Frequently asked questions",
     "q1": {
       "question": "What is a No-Sweat Intro?",
-      "answer": "A free 15-minute chat – no workout, just talk. Come in work clothes if you want! We'll discuss your goals and answer any questions."
+      "answer": "A free 15-minute intro chat. No workout, no pressure."
     },
     "q2": {
-      "question": "I'm really out of shape / over 50 / a beginner – can I do this?",
-      "answer": "Yes! We specialize in helping beginners of all ages. No judgment, just support. Every workout is scalable to your fitness level."
+      "question": "I'm a beginner / over 50 / not fit — can I do this?",
+      "answer": "Yes! Everything is scalable and we help you step by step."
     },
     "q3": {
-      "question": "How much time will this take each week?",
-      "answer": "We recommend 3 sessions per week, each about 45 minutes. That's just over 2 hours per week – designed to fit into busy schedules."
+      "question": "How much time does it take per week?",
+      "answer": "Three 60-minute sessions per week."
     },
     "q4": {
       "question": "What happens after the 28 days?",
-      "answer": "You can continue with our regular membership or another program. We'll help you find the best path forward based on your goals and progress."
+      "answer": "You can continue to regular classes, small groups, or 1-on-1. We help you find the best path."
     }
   },
   "footer": {
-    "address": "CrossFit Leiden, Leiden, Netherlands",
-    "privacy": "Privacy Policy",
-    "contact": "Contact Us"
-  },
-  "nav": {
-    "switchToNL": "Nederlands",
-    "switchToEN": "English"
+    "name": "CrossFit Leiden",
+    "address": "Rooseveltstraat 7, Leiden",
+    "members": "450+ members",
+    "since": "Since 2016",
+    "rating": "★★★★★ 5.0",
+    "reviewCount": "265+ reviews",
+    "cta": "Book Free Intro",
+    "whatsapp": "Message us directly"
   }
 }

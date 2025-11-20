@@ -5,29 +5,38 @@ export function Hero() {
   const t = useTranslations('hero');
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-white pt-20">
-      {/* Background image placeholder - in production, add real gym photos */}
-      <div className="absolute inset-0 bg-black/5 z-0" />
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-100 to-white pt-20">
+      {/* Background placeholder - replace with actual gym photo */}
+      <div className="absolute inset-0 bg-gradient-to-br from-gray-50 to-gray-100 z-0" />
 
-      <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        {/* Tagline with emphasized "BUITENGEWOON STERK" */}
-        <p className="text-base sm:text-lg font-bold mb-4 uppercase tracking-wide">
-          <span className="text-[#5a5167]">{t('taglinePrefix')}</span>
+      {/* Optional: Add background image here */}
+      {/* <div className="absolute inset-0 z-0">
+        <img
+          src="/images/hero-background.jpg"
+          alt="CrossFit Leiden gym"
+          className="w-full h-full object-cover opacity-20"
+        />
+      </div> */}
+
+      <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-16">
+        {/* Tagline with emphasized part */}
+        <p className="text-base sm:text-lg font-bold mb-3 uppercase tracking-wide">
+          <span className="text-[#5a5167]">{t('taglinePrefix')} </span>
           <span className="text-[--cinnabar] text-lg sm:text-xl">{t('taglineEmphasis')}</span>
         </p>
 
         {/* Main Headline */}
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[--foreground] mb-6 leading-tight">
+        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[--foreground] mb-6 leading-tight max-w-3xl mx-auto">
           {t('headline')}
         </h1>
 
         {/* Subheadline */}
-        <p className="text-lg sm:text-xl text-gray-700 mb-8 max-w-2xl mx-auto leading-relaxed">
+        <p className="text-lg sm:text-xl text-gray-700 mb-10 max-w-2xl mx-auto leading-relaxed">
           {t('subheadline')}
         </p>
 
-        {/* CTA Button with "Alle niveaus welkom" */}
-        <div className="mb-3">
+        {/* CTA Button */}
+        <div className="mb-4">
           <Button
             variant="primary"
             size="lg"
@@ -38,22 +47,15 @@ export function Hero() {
           </Button>
         </div>
 
-        {/* "Alle niveaus welkom" trust message */}
-        <div className="inline-block bg-[--jonquil] px-6 py-2 rounded-full mb-2">
-          <p className="text-base font-bold text-[--foreground]">
-            {t('allLevelsWelcome')}
-          </p>
-        </div>
-
-        {/* Micro-copy */}
-        <p className="text-sm text-gray-600 italic">
-          {t('microCopy')}
+        {/* Trust Line */}
+        <p className="text-sm text-gray-600 italic mb-10">
+          {t('trustLine')}
         </p>
 
-        {/* Visual Trust Indicator with improved star visibility */}
-        <div className="mt-12 flex items-center justify-center gap-2">
-          <span className="text-3xl" style={{ color: '#F7CB15' }}>★★★★★</span>
-          <span className="text-base font-medium text-gray-700">{t('rating')}</span>
+        {/* Reviews */}
+        <div className="inline-flex items-center gap-3 bg-white px-6 py-3 rounded-full shadow-md">
+          <span className="text-2xl" style={{ color: '#F7CB15' }}>★★★★★</span>
+          <span className="text-sm sm:text-base font-semibold text-gray-900">{t('reviews')}</span>
         </div>
       </div>
 

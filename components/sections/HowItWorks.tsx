@@ -11,46 +11,43 @@ export function HowItWorks() {
 
   return (
     <section className="py-16 sm:py-20 lg:py-24 bg-gray-50">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl sm:text-4xl font-bold text-center text-[--foreground] mb-16">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-12 sm:mb-16">
           {t('heading')}
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
-          {steps.map(({ key, number }, index) => (
-            <div key={key} className="relative">
-              {/* Connector Line (hidden on mobile, shown on desktop) */}
-              {index < steps.length - 1 && (
-                <div className="hidden md:block absolute top-8 left-full w-full h-0.5 bg-[--verdigris] -z-10" style={{ width: 'calc(100% - 2rem)' }} />
-              )}
-
-              {/* Step Number */}
-              <div className="w-16 h-16 rounded-full bg-[--cinnabar] text-white flex items-center justify-center text-2xl font-bold mb-4 mx-auto md:mx-0">
-                {number}
+        <div className="space-y-10 sm:space-y-12">
+          {steps.map(({ key, number }) => (
+            <div key={key} className="flex flex-col sm:flex-row gap-6 sm:gap-8">
+              <div className="flex-shrink-0">
+                <div className="w-16 h-16 sm:w-20 sm:h-20 bg-cinnabar text-white rounded-full flex items-center justify-center text-2xl sm:text-3xl font-bold">
+                  {number}
+                </div>
               </div>
-
-              {/* Step Content */}
-              <div className="text-center md:text-left">
-                <h3 className="text-xl font-bold text-[--foreground] mb-3">
+              <div>
+                <h3 className="text-2xl sm:text-3xl font-bold mb-3">
                   {t(`${key}.title`)}
                 </h3>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-base sm:text-lg text-gray-700 leading-relaxed mb-3">
                   {t(`${key}.description`)}
                 </p>
+
+                {/* Step 3 has options list */}
+                {key === 'step3' && (
+                  <>
+                    <ul className="text-base sm:text-lg text-gray-700 leading-relaxed space-y-2 ml-6 mb-3">
+                      {(t.raw(`${key}.options`) as string[]).map((option, index) => (
+                        <li key={index}>• {option}</li>
+                      ))}
+                    </ul>
+                    <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
+                      {t(`${key}.footer`)}
+                    </p>
+                  </>
+                )}
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Visual Timeline for Mobile */}
-        <div className="md:hidden mt-12 flex justify-center">
-          <div className="flex items-center gap-2">
-            <div className="w-3 h-3 rounded-full bg-[--cinnabar]" />
-            <div className="w-12 h-0.5 bg-[--verdigris]" />
-            <div className="w-3 h-3 rounded-full bg-[--cinnabar]" />
-            <div className="w-12 h-0.5 bg-[--verdigris]" />
-            <div className="w-3 h-3 rounded-full bg-[--cinnabar]" />
-          </div>
         </div>
       </div>
     </section>
