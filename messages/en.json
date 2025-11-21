@@ -130,6 +130,14 @@
     "q4": {
       "question": "What happens after the 28 days?",
       "answer": "You can continue to regular classes, small groups, or 1-on-1. We help you find the best path."
+    },
+    "q5": {
+      "question": "Do I need to track calories?",
+      "answer": "Not unless you want to. We can use numbers if they help you, or simple principles if your life is already busy."
+    },
+    "q6": {
+      "question": "Is this a restrictive diet?",
+      "answer": "No. We avoid extreme rules. We focus on healthy habits you can keep up."
     }
   },
   "footer": {

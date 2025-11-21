@@ -12,6 +12,8 @@ export function FAQ() {
     { key: 'q2' },
     { key: 'q3' },
     { key: 'q4' },
+    { key: 'q5' },
+    { key: 'q6' },
   ];
 
   const toggleFAQ = (index: number) => {
@@ -68,12 +70,16 @@ export function FAQ() {
         {/* Additional CTA after FAQ */}
         <div className="mt-16 text-center">
           <p className="text-gray-700 mb-4 text-lg">Still have questions?</p>
-          <a
-            href="#popup-ZTMHpqwf9WGDQN6VGSnU"
+          <button
+            onClick={() => {
+              if (typeof window !== 'undefined' && (window as any).openBookingPopup) {
+                (window as any).openBookingPopup();
+              }
+            }}
             className="inline-block px-8 py-4 bg-[#E34234] text-white font-bold text-lg rounded-lg hover:bg-[#c23529] active:bg-[#a12e23] transition-colors shadow-lg"
           >
             Book a Free Intro to Learn More
-          </a>
+          </button>
         </div>
       </div>
     </section>

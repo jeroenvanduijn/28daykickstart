@@ -14,7 +14,7 @@ export function Hero() {
           alt="Warm trainingsmoment in CrossFit Leiden box"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-white/90 to-gray-100/80"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-white/70 to-gray-100/60"></div>
       </div>
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-20">

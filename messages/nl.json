@@ -130,6 +130,14 @@
     "q4": {
       "question": "Wat gebeurt er na de 28 dagen?",
       "answer": "Je kunt doorstromen naar reguliere lessen, small groups of 1-op-1. We helpen je het beste pad kiezen."
+    },
+    "q5": {
+      "question": "Moet ik calorieën tellen?",
+      "answer": "Niet tenzij je dat wilt. We kunnen met cijfers werken als dat je helpt, of met simpele principes als je leven al druk is."
+    },
+    "q6": {
+      "question": "Is dit een restrictief dieet?",
+      "answer": "Nee. We vermijden extreme regels. We focussen op gezonde gewoontes die je kunt volhouden."
     }
   },
   "footer": {
