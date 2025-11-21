@@ -138,7 +138,9 @@
     "q6": {
       "question": "Is dit een restrictief dieet?",
       "answer": "Nee. We vermijden extreme regels. We focussen op gezonde gewoontes die je kunt volhouden."
-    }
+    },
+    "stillHaveQuestions": "Heb je nog vragen?",
+    "ctaButton": "Plan Gratis Intro om Meer te Weten"
   },
   "footer": {
     "name": "CrossFit Leiden",

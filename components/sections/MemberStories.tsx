@@ -64,10 +64,9 @@ export function MemberStories() {
               {/* Video Embed */}
               {story.videoEmbed}
 
-              {/* Story Name and Description */}
+              {/* Story Name Only */}
               <div className="p-6 text-center">
-                <h3 className="text-xl font-bold mb-2">{story.name}</h3>
-                <p className="text-gray-700">{t(`${story.key}.summary`)}</p>
+                <h3 className="text-xl font-bold">{story.name}</h3>
               </div>
             </div>
           ))}

@@ -22,8 +22,8 @@ export function Header() {
             <LanguageSwitcher />
           </div>
 
-          {/* CTA - Right */}
-          <div className="flex-shrink-0">
+          {/* CTA - Right - Hidden on mobile */}
+          <div className="flex-shrink-0 hidden sm:block">
             <button
               onClick={() => {
                 if (typeof window !== 'undefined' && (window as any).openBookingPopup) {

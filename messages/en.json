@@ -138,7 +138,9 @@
     "q6": {
       "question": "Is this a restrictive diet?",
       "answer": "No. We avoid extreme rules. We focus on healthy habits you can keep up."
-    }
+    },
+    "stillHaveQuestions": "Still have questions?",
+    "ctaButton": "Book a Free Intro to Learn More"
   },
   "footer": {
     "name": "CrossFit Leiden",

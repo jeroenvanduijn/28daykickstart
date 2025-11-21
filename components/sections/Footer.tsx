@@ -34,7 +34,7 @@ export function Footer() {
             {t('cta')}
           </button>
           <a
-            href="https://wa.me/31970102581400"
+            href="https://wa.me/31712340477"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 bg-green-600 text-white font-bold rounded-lg hover:bg-green-700 transition-all shadow-lg text-lg"

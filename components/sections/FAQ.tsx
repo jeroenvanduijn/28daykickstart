@@ -69,7 +69,7 @@ export function FAQ() {
 
         {/* Additional CTA after FAQ */}
         <div className="mt-16 text-center">
-          <p className="text-gray-700 mb-4 text-lg">Still have questions?</p>
+          <p className="text-gray-700 mb-4 text-lg">{t('stillHaveQuestions')}</p>
           <button
             onClick={() => {
               if (typeof window !== 'undefined' && (window as any).openBookingPopup) {
@@ -78,7 +78,7 @@ export function FAQ() {
             }}
             className="inline-block px-8 py-4 bg-[#E34234] text-white font-bold text-lg rounded-lg hover:bg-[#c23529] active:bg-[#a12e23] transition-colors shadow-lg"
           >
-            Book a Free Intro to Learn More
+            {t('ctaButton')}
           </button>
         </div>
       </div>
