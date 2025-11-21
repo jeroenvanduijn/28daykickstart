@@ -1,3 +1,5 @@
+'use client';
+
 import { useTranslations } from 'next-intl';
 import { LanguageSwitcher } from '@/components/ui/LanguageSwitcher';
 
@@ -21,12 +23,16 @@ export function Footer() {
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-          <a
-            href="#popup-ZTMHpqwf9WGDQN6VGSnU"
+          <button
+            onClick={() => {
+              if (typeof window !== 'undefined' && (window as any).openBookingPopup) {
+                (window as any).openBookingPopup();
+              }
+            }}
             className="inline-block px-8 py-4 bg-[#E34234] text-white font-bold text-lg rounded-lg hover:bg-[#c23529] active:bg-[#a12e23] transition-colors shadow-lg"
           >
             {t('cta')}
-          </a>
+          </button>
           <a
             href="https://wa.me/31970102581400"
             target="_blank"

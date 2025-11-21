@@ -8,7 +8,7 @@ export function MemberStories() {
       key: 'story1',
       name: 'Elcin',
       videoEmbed: (
-        <div className="relative bg-gray-300 aspect-video overflow-hidden">
+        <div className="relative bg-black aspect-[9/16] overflow-hidden">
           <iframe
             src="https://player.vimeo.com/video/1133807494?badge=0&autopause=0&player_id=0&app_id=58479"
             className="absolute top-0 left-0 w-full h-full"
@@ -23,7 +23,7 @@ export function MemberStories() {
       key: 'story2',
       name: 'Fleur',
       videoEmbed: (
-        <div className="relative bg-gray-300 aspect-video overflow-hidden">
+        <div className="relative bg-black aspect-[9/16] overflow-hidden">
           <iframe
             src="https://player.vimeo.com/video/1133807460?badge=0&autopause=0&player_id=0&app_id=58479"
             className="absolute top-0 left-0 w-full h-full"
@@ -38,7 +38,7 @@ export function MemberStories() {
       key: 'story3',
       name: 'Daan',
       videoEmbed: (
-        <div className="relative bg-gray-300 aspect-video overflow-hidden">
+        <div className="relative bg-black aspect-[9/16] overflow-hidden">
           <iframe
             src="https://player.vimeo.com/video/1139251716?badge=0&autopause=0&player_id=0&app_id=58479"
             className="absolute top-0 left-0 w-full h-full"
@@ -64,9 +64,10 @@ export function MemberStories() {
               {/* Video Embed */}
               {story.videoEmbed}
 
-              {/* Story Name Only - NO subtexts */}
+              {/* Story Name and Description */}
               <div className="p-6 text-center">
-                <h3 className="text-xl font-bold">{story.name}</h3>
+                <h3 className="text-xl font-bold mb-2">{story.name}</h3>
+                <p className="text-gray-700">{t(`${story.key}.summary`)}</p>
               </div>
             </div>
           ))}

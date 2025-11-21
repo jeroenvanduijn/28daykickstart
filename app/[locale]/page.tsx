@@ -9,6 +9,7 @@ import { Reviews } from '@/components/sections/Reviews';
 import { CTA } from '@/components/sections/CTA';
 import { FAQ } from '@/components/sections/FAQ';
 import { Footer } from '@/components/sections/Footer';
+import { BookingPopup } from '@/components/ui/BookingPopup';
 
 export default function LandingPage() {
   return (
@@ -26,6 +27,7 @@ export default function LandingPage() {
         <FAQ />
         <Footer />
       </main>
+      <BookingPopup />
     </>
   );
 }

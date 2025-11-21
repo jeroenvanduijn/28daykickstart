@@ -17,19 +17,23 @@ export function Header() {
             </a>
           </div>
 
-          {/* Language Switcher - Center */}
-          <div className="absolute left-1/2 transform -translate-x-1/2">
+          {/* Language Switcher - Center on desktop, Right on mobile */}
+          <div className="sm:absolute sm:left-1/2 sm:transform sm:-translate-x-1/2">
             <LanguageSwitcher />
           </div>
 
           {/* CTA - Right */}
           <div className="flex-shrink-0">
-            <a
-              href="#popup-ZTMHpqwf9WGDQN6VGSnU"
+            <button
+              onClick={() => {
+                if (typeof window !== 'undefined' && (window as any).openBookingPopup) {
+                  (window as any).openBookingPopup();
+                }
+              }}
               className="px-6 py-3 bg-[#E34234] text-white font-bold rounded-lg hover:bg-[#c23529] active:bg-[#a12e23] transition-colors shadow-md"
             >
               {t('cta')}
-            </a>
+            </button>
           </div>
         </div>
       </div>

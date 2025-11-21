@@ -1,3 +1,5 @@
+'use client';
+
 import { useTranslations } from 'next-intl';
 
 export function CTA() {
@@ -13,12 +15,16 @@ export function CTA() {
           {t('subtext')}
         </p>
 
-        <a
-          href="#popup-ZTMHpqwf9WGDQN6VGSnU"
+        <button
+          onClick={() => {
+            if (typeof window !== 'undefined' && (window as any).openBookingPopup) {
+              (window as any).openBookingPopup();
+            }
+          }}
           className="inline-block px-10 py-5 bg-white text-[#E34234] font-bold text-xl rounded-lg hover:bg-gray-100 active:bg-gray-200 transition-colors shadow-2xl"
         >
           {t('button')}
-        </a>
+        </button>
       </div>
     </section>
   );

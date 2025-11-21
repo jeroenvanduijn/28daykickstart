@@ -17,20 +17,24 @@ export function Hero() {
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-20">
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 mb-8 leading-tight">
-          Gewone mensen,<br />buitengewoon sterk.
+          {t('taglinePrefix')}<br />{t('taglineEmphasis')}
         </h1>
 
         <p className="text-xl sm:text-2xl text-gray-800 mb-6 leading-relaxed max-w-3xl mx-auto">
-          De 28-daagse Kickstart voor drukke ouders en professionals.<br />
-          Meer energie, meer structuur, meer vertrouwen – ook als je nog nooit CrossFit hebt gedaan.
+          {t('headline')}<br />
+          {t('subheadline')}
         </p>
 
-        <a
-          href="#popup-ZTMHpqwf9WGDQN6VGSnU"
+        <button
+          onClick={() => {
+            if (typeof window !== 'undefined' && (window as any).openBookingPopup) {
+              (window as any).openBookingPopup();
+            }
+          }}
           className="inline-block px-10 py-5 bg-[#E34234] text-white font-bold text-xl rounded-lg hover:bg-[#c23529] active:bg-[#a12e23] transition-colors shadow-2xl mb-4"
         >
           {t('cta')}
-        </a>
+        </button>
 
         <p className="text-base text-gray-700 italic mb-12">
           {t('trustLine')}

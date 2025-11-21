@@ -18,13 +18,13 @@ export function HowItWorks() {
 
         <div className="flex flex-col gap-12">
           {steps.map(({ key, number }) => (
-            <div key={key} className="flex flex-col sm:flex-row gap-8">
-              <div className="flex-shrink-0">
+            <div key={key} className="flex flex-col sm:flex-row gap-8 text-center sm:text-left">
+              <div className="flex-shrink-0 mx-auto sm:mx-0">
                 <div className="w-24 h-24 bg-[#F4C430] text-[#0B0E11] rounded-full flex items-center justify-center text-3xl font-bold">
                   {number}
                 </div>
               </div>
-              <div>
+              <div className="flex-1">
                 <h3 className="text-3xl font-bold mb-4">
                   {t(`${key}.title`)}
                 </h3>
@@ -34,7 +34,7 @@ export function HowItWorks() {
 
                 {key === 'step3' && (
                   <>
-                    <ul className="text-lg text-gray-700 leading-relaxed space-y-2 ml-6 mb-3">
+                    <ul className="text-lg text-gray-700 leading-relaxed space-y-2 sm:ml-6 mb-3">
                       {(t.raw(`${key}.options`) as string[]).map((option, index) => (
                         <li key={index}>• {option}</li>
                       ))}
