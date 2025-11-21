@@ -13,10 +13,12 @@ export function Coaches() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto mb-16">
           {/* Coach Max */}
           <div className="bg-gray-50 rounded-3xl p-10">
-            <div className="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-6 flex items-center justify-center">
-              <svg className="w-20 h-20 text-gray-500" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
-              </svg>
+            <div className="w-32 h-32 mx-auto mb-6 overflow-hidden rounded-full">
+              <img
+                src="https://storage.googleapis.com/msgsndr/s0YuoK12A9YPXCKsfUp3/media/67a1e253aaffd3e4434d93b3.png"
+                alt="Coach Max"
+                className="w-full h-full object-cover"
+              />
             </div>
             <h3 className="text-3xl font-bold text-center mb-2">
               {t('max.name')}
@@ -31,10 +33,12 @@ export function Coaches() {
 
           {/* Coach Annie */}
           <div className="bg-gray-50 rounded-3xl p-10">
-            <div className="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-6 flex items-center justify-center">
-              <svg className="w-20 h-20 text-gray-500" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
-              </svg>
+            <div className="w-32 h-32 mx-auto mb-6 overflow-hidden rounded-full">
+              <img
+                src="https://storage.googleapis.com/msgsndr/s0YuoK12A9YPXCKsfUp3/media/690ddfa4b23abd77a66a3e1b.png"
+                alt="Coach Annie"
+                className="w-full h-full object-cover"
+              />
             </div>
             <h3 className="text-3xl font-bold text-center mb-2">
               {t('annie.name')}

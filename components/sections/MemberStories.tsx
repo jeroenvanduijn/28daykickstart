@@ -4,9 +4,57 @@ export function MemberStories() {
   const t = useTranslations('memberStories');
 
   const stories = [
-    { key: 'story1' },
-    { key: 'story2' },
-    { key: 'story3' },
+    {
+      key: 'story1',
+      name: 'Elcin',
+      role: 'Moeder van twee',
+      summary: 'From solo workouts to discovering the power of structure, coaching, and an incredible community, Elcin has crushed her journey with us!',
+      videoEmbed: (
+        <div className="relative bg-gray-300 aspect-[9/16] overflow-hidden">
+          <iframe
+            src="https://player.vimeo.com/video/1133807494?badge=0&autopause=0&player_id=0&app_id=58479"
+            className="absolute top-0 left-0 w-full h-full"
+            frameBorder="0"
+            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+            title="Elcin - 100 visits strong!"
+          ></iframe>
+        </div>
+      ),
+    },
+    {
+      key: 'story2',
+      name: 'Fleur',
+      role: 'Drukke professional',
+      summary: 'From struggling with push-ups and short runs to crushing her first Hyrox and hitting 300 visits.',
+      videoEmbed: (
+        <div className="relative bg-gray-300 aspect-[9/16] overflow-hidden">
+          <iframe
+            src="https://player.vimeo.com/video/1133807460?badge=0&autopause=0&player_id=0&app_id=58479"
+            className="absolute top-0 left-0 w-full h-full"
+            frameBorder="0"
+            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+            title="Fleur - 300 workouts strong!"
+          ></iframe>
+        </div>
+      ),
+    },
+    {
+      key: 'story3',
+      name: 'Daan',
+      role: 'Ouder van drie',
+      summary: '527 sessions later, at almost 64 years old, he\'s heading to the Hyrox World Championships in Chicago. Just barely qualified, he says. But that\'s all he needed.',
+      videoEmbed: (
+        <div className="relative bg-gray-300 aspect-[4/3] overflow-hidden">
+          <iframe
+            src="https://player.vimeo.com/video/1139251716?badge=0&autopause=0&player_id=0&app_id=58479"
+            className="absolute top-0 left-0 w-full h-full"
+            frameBorder="0"
+            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+            title="Daan - From Leiden to Chicago"
+          ></iframe>
+        </div>
+      ),
+    },
   ];
 
   return (
@@ -17,31 +65,19 @@ export function MemberStories() {
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {stories.map(({ key }) => (
-            <div key={key} className="bg-gray-50 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
-              {/* Video Placeholder */}
-              <div className="relative bg-gray-300 aspect-video flex items-center justify-center cursor-pointer group">
-                <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors" />
-                <div className="relative w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-lg">
-                  <svg className="w-8 h-8 text-[#E34234] ml-1" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M8 5v14l11-7z" />
-                  </svg>
-                </div>
-              </div>
+          {stories.map((story) => (
+            <div key={story.key} className="bg-gray-50 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+              {/* Video Embed */}
+              {story.videoEmbed}
 
               {/* Story Info */}
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-1">{t(`${key}.name`)}</h3>
-                <p className="text-sm text-gray-600 mb-3">{t(`${key}.role`)}</p>
-                <p className="text-gray-700">{t(`${key}.summary`)}</p>
+                <h3 className="text-xl font-bold mb-1">{story.name}</h3>
+                <p className="text-sm text-gray-600 mb-3">{story.role}</p>
+                <p className="text-gray-700">{story.summary}</p>
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Note about video embeds */}
-        <div className="mt-8 text-center text-gray-600 text-sm">
-          <p>Video embeds kunnen hier worden toegevoegd (YouTube, Vimeo, etc.)</p>
         </div>
       </div>
     </section>

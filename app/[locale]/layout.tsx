@@ -3,6 +3,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { locales } from '@/i18n';
+import Script from 'next/script';
 import "../globals.css";
 
 export const metadata: Metadata = {
@@ -36,6 +37,29 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>
+
+        {/* HighLevel Booking Popup */}
+        <iframe
+          src="https://kilo.gymleadmachine.com/widget/form/ZTMHpqwf9WGDQN6VGSnU"
+          style={{display: 'none', width: '100%', height: '100%', border: 'none', borderRadius: '3px'}}
+          id="popup-ZTMHpqwf9WGDQN6VGSnU"
+          data-layout="{'id':'POPUP'}"
+          data-trigger-type="alwaysShow"
+          data-trigger-value=""
+          data-activation-type="alwaysActivated"
+          data-activation-value=""
+          data-deactivation-type="neverDeactivate"
+          data-deactivation-value=""
+          data-form-name="kickstart landingpage"
+          data-height="340"
+          data-layout-iframe-id="popup-ZTMHpqwf9WGDQN6VGSnU"
+          data-form-id="ZTMHpqwf9WGDQN6VGSnU"
+          title="kickstart landingpage"
+        />
+        <Script
+          src="https://kilo.gymleadmachine.com/js/form_embed.js"
+          strategy="lazyOnload"
+        />
       </body>
     </html>
   );

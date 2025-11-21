@@ -4,18 +4,16 @@ export function Hero() {
   const t = useTranslations('hero');
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-200 to-gray-100 pt-20">
-      {/* Background placeholder - replace with actual gym photo */}
-      <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200 z-0" />
-
-      {/* Optional: Uncomment and add hero image */}
-      {/* <div className="absolute inset-0 z-0">
+    <section className="relative min-h-screen flex items-center justify-center pt-20">
+      {/* Hero Background Image */}
+      <div className="absolute inset-0 z-0">
         <img
-          src="/images/hero-background.jpg"
+          src="https://storage.googleapis.com/msgsndr/s0YuoK12A9YPXCKsfUp3/media/69203b77d9b07d3289f63218.jpg"
           alt="Warm trainingsmoment in CrossFit Leiden box"
-          className="w-full h-full object-cover opacity-20"
+          className="w-full h-full object-cover"
         />
-      </div> */}
+        <div className="absolute inset-0 bg-gradient-to-br from-white/90 to-gray-100/80"></div>
+      </div>
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-20">
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 mb-8 leading-tight">
@@ -28,7 +26,7 @@ export function Hero() {
         </p>
 
         <a
-          href="#booking"
+          href="#popup-ZTMHpqwf9WGDQN6VGSnU"
           className="inline-block px-10 py-5 bg-[#E34234] text-white font-bold text-xl rounded-lg hover:bg-[#c23529] active:bg-[#a12e23] transition-colors shadow-2xl mb-4"
         >
           {t('cta')}

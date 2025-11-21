@@ -22,7 +22,7 @@ export function Header() {
           <div className="flex items-center gap-6">
             <LanguageSwitcher />
             <a
-              href="#booking"
+              href="#popup-ZTMHpqwf9WGDQN6VGSnU"
               className="px-6 py-3 bg-[#E34234] text-white font-bold rounded-lg hover:bg-[#c23529] active:bg-[#a12e23] transition-colors shadow-md"
             >
               {t('cta')}

@@ -69,7 +69,7 @@ export function FAQ() {
         <div className="mt-16 text-center">
           <p className="text-gray-700 mb-4 text-lg">Still have questions?</p>
           <a
-            href="#booking"
+            href="#popup-ZTMHpqwf9WGDQN6VGSnU"
             className="inline-block px-8 py-4 bg-[#E34234] text-white font-bold text-lg rounded-lg hover:bg-[#c23529] active:bg-[#a12e23] transition-colors shadow-lg"
           >
             Book a Free Intro to Learn More

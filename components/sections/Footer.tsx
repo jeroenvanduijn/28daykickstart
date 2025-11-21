@@ -22,13 +22,13 @@ export function Footer() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
           <a
-            href="#booking"
+            href="#popup-ZTMHpqwf9WGDQN6VGSnU"
             className="inline-block px-8 py-4 bg-[#E34234] text-white font-bold text-lg rounded-lg hover:bg-[#c23529] active:bg-[#a12e23] transition-colors shadow-lg"
           >
             {t('cta')}
           </a>
           <a
-            href="https://wa.me/31612345678"
+            href="https://wa.me/31970102581400"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 bg-green-600 text-white font-bold rounded-lg hover:bg-green-700 transition-all shadow-lg text-lg"
